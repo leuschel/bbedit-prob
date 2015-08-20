@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+
+ <!--
+	BBEdit codeless language module for B Machine source files.
+	
+	Built from the BBEedit Template
+	by Michael Leuschel (http://www.stups.uni-duesseldorf.de/~leuschel/)
+	Date of this version: Aug 2015
+	
+	Requires BBEdit 8.0 or higher. To install, copy the file to:
+		~/Library/Application Support/BBEdit/Language Modules/
+		(or /Users/leuschel/Dropbox/Application Support/BBEdit/Language Modules in case you sync with DropBox)
+	and relaunch BBEdit.
+    This module is licenced under EPL 1.0 (http://www.eclipse.org/org/documents/epl-v10.html) 
+-->
+ <dict>
+	 <key>BBEditDocumentType</key>
+	 <string>CodelessLanguageModule</string>
+	 <key>BBLMColorsSyntax</key>
+	 <true/>
+	 <key>BBLMIsCaseSensitive</key>
+	 <true/>
+	 <key>BBLMKeywordList</key>
+	 <array>
+		 <string>MACHINE</string>
+		 <string>MODEL</string>
+		 <string>REFINEMENT</string>
+		 <string>IMPLEMENTATION</string>
+		 <string>REFINES</string>
+		 <string>USES</string>
+		 <string>INCLUDES</string>
+		 <string>SEES</string>
+		 <string>IMPORTS</string>
+		 <string>EXTENDS</string>
+		 <string>PROMOTES</string>
+		 <string>SETS</string>
+		 <string>INITIALISATION</string>
+		 <string>OPERATIONS</string>
+		 <string>LOCAL_OPERATIONS</string>
+		 <string>EVENTS</string>
+		 <string>THEOREMS</string>
+		 <string>INVARIANT</string>
+		 <string>VARIANT</string>
+         <string>DEFINITIONS</string>
+         <string>ASSERTIONS</string>
+         <string>ASSERT</string>
+		 <string>VARIABLES</string>
+		 <string>ABSTRACT_VARIABLES</string>
+		 <string>CONCRETE_VARIABLES</string>
+		 <string>CONSTANTS</string>
+		 <string>CONSTRAINTS</string>
+		 <string>ABSTRACT_CONSTANTS</string>
+		 <string>CONCRETE_CONSTANTS</string>
+		 <string>PROPERTIES</string>
+		 <string>SELECT</string>
+		 <string>THEN</string>
+		 <string>END</string>
+		 <string>IF</string>
+		 <string>ANY</string>
+		 <string>WHERE</string>
+		 <string>WHEN</string>
+		 <string>ELSE</string>
+		 <string>ELSIF</string>
+		 <string>PRE</string>
+		 <string>BEGIN</string>
+		 <string>CHOICE</string>
+		 <string>WHILE</string>
+		 <string>DO</string>
+		 <string>VAR</string>
+		 <string>EITHER</string>
+		 <string>OR</string>
+		 <string>LET</string>
+		 <string>BE</string>
+		 <string>IN</string>
+		 <string>CASE</string>
+		 <string>OF</string>
+	 </array>
+	 
+	 <key>BBLMPredefinedNameList</key>
+	 <array>
+		 <string>skip</string>
+		 <string>id</string>
+		 <string>closure</string>
+		 <string>closure1</string>
+		 <string>iterate</string>
+		 <string>pred</string>
+		 <string>succ</string>
+		 <string>prj1</string>
+		 <string>prj2</string>
+		 <string>ran</string>
+		 <string>dom</string>
+		 <string>POW</string>
+		 <string>POW1</string>
+		 <string>NAT</string>
+		 <string>NAT1</string>
+		 <string>INT</string>
+		 <string>INTEGER</string>
+		 <string>NATURAL</string>
+		 <string>NATURAL1</string>
+		 <string>MININT</string>
+		 <string>MAXINT</string>
+		 <string>STRING</string>
+		 <string>FIN</string>
+		 <string>FIN1</string>
+		 <string>card</string>
+		 <string>union</string>
+		 <string>UNION</string>
+		 <string>inter</string>
+		 <string>INTER</string>
+		 <string>PI</string>
+		 <string>SIGMA</string>
+		 <string>mod</string>
+		 <string>seq</string>
+		 <string>seq1</string>
+		 <string>iseq</string>
+		 <string>iseq1</string>
+		 <string>perm</string>
+		 <string>size</string>
+		 <string>rev</string>
+		 <string>first</string>
+		 <string>last</string>
+		 <string>front</string>
+		 <string>tail</string>
+		 <string>conc</string>
+		 <string>max</string>
+		 <string>min</string>
+		 <string>or</string>
+		 <string>not</string>
+		 <string>bool</string>
+		 <string>BOOL</string>
+		 <string>TRUE</string>
+		 <string>FALSE</string>
+		 <string>Struct</string>
+		 <string>rec</string>
+		 <string>left</string>
+		 <string>right</string>
+		 <string>tree</string>
+		 <string>SET_PREF_SYMBOLIC</string>
+		 <string>SET_PREF_MAXINT</string>
+		 <string>SET_PREF_MININT</string>
+	 </array>
+	 
+	 <key>BBLMLanguageCode</key>
+	 <string>Bmri</string>
+	 <key>BBLMLanguageDisplayName</key>
+	 <string>BMachine</string>
+	 <key>BBLMScansFunctions</key>
+	 <true/>
+	 
+	 <key>BBLMSuffixMap</key>
+	 <array>
+		 <dict>
+			 <key>BBLMLanguageSuffix</key>    
+			 <string>.mch</string>  
+			 <key>BBLMIsSourceKind</key>    
+			 <true/>         
+		 </dict>
+		 <dict>
+			 <key>BBLMLanguageSuffix</key>    
+			 <string>.ref</string>
+			 <key>BBLMIsSourceKind</key>    
+			 <true/>          
+		 </dict>
+		 <dict>
+			 <key>BBLMLanguageSuffix</key>    
+			 <string>.imp</string>
+			 <key>BBLMIsSourceKind</key>    
+			 <true/>          
+		 </dict>
+		 <dict>
+			 <key>BBLMLanguageSuffix</key>    
+			 <string>.def</string>
+			 <key>BBLMIsSourceKind</key>    
+			 <true/>          
+		 </dict>
+	 </array>
+ 
+	<key>BBLMCommentPrefixDefault</key>
+	 <string>/*</string>
+	<key>BBLMCommentSuffixDefault</key>
+	 <string>*/</string>
+	
+	 <key>Language Features</key>
+	 <dict>
+		 <key>Open Parameter Lists</key>
+		 <string>(</string>
+		 <key>Close Parameter Lists</key>
+		 <string>)</string>
+		 
+		 <key>Open Strings 1</key>
+		 <string>"</string>
+		 <key>Open Strings 2</key>
+		 <string>'</string>
+		 <key>Close Strings 1</key>
+		 <string>"</string>
+		 <key>Close Strings 2</key>
+		 <string>'</string>
+		 <key>End-of-line Ends Strings 1</key>
+		 <true/>
+		 <key>End-of-line Ends Strings 2</key>
+		 <true/>
+		 <key>Escape Char in Strings 1</key>
+		 <string>\</string>
+		 <key>Escape Char in Strings 2</key>
+		 <string></string>
+		 <key>Identifier and Keyword Characters</key>
+		 <string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_</string>
+		 
+		 <key>Open Block Comments</key>
+		 <string>/*</string>
+		 <key>Close Block Comments</key>
+		 <string>*/</string>
+		<key>Open Line Comments</key>
+		<string>//</string>
+		
+		 <key>Open Statement Blocks</key>
+		 <string>{</string>
+		 <key>Close Statement Blocks</key>
+		 <string>}</string>
+		 <key>Prefix for Functions</key>
+		 <string></string>
+		 <key>Prefix for Procedures</key>
+		 <string></string>
+		 <key>Terminator for Prototypes 1</key>
+		 <string></string>
+		 <key>Terminator for Prototypes 2</key>
+		 <string></string>
+	 </dict>
+ </dict>
+ </plist> 

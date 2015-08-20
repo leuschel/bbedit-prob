@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+ <!--
+	BBEdit codeless language module for TLA Spec source files.
+	
+	Built from the BBEedit Template
+	by Michael Leuschel (http://www.stups.uni-duesseldorf.de/~leuschel/)
+	Date of this version: Aug 2015
+	
+	Requires BBEdit 8.0 or higher. To install, copy the file to:
+		~/Library/Application Support/BBEdit/Language Modules/
+		(or /Users/leuschel/Dropbox/Application Support/BBEdit/Language Modules in case you sync with DropBox)
+	and relaunch BBEdit.
+    This module is licenced under EPL 1.0 (http://www.eclipse.org/org/documents/epl-v10.html) 
+-->
+ <dict>
+	 <key>BBEditDocumentType</key>
+	 <string>CodelessLanguageModule</string>
+	 <key>BBLMColorsSyntax</key>
+	 <true/>
+	 <key>BBLMIsCaseSensitive</key>
+	 <true/>
+	 <key>BBLMKeywordList</key>
+	 <array>
+		 <string>MODULE</string>
+		 <string>EXTENDS</string>
+		 <string>CONSTANT</string>
+		 <string>CONSTANTS</string>
+		 <string>VARIABLE</string>
+		 <string>VARIABLES</string>
+		 <string>AXIOM</string>
+		 <string>THEOREM</string>
+		 <string>ASSUME</string>
+		 <string>ASSUMPTION</string>
+		 <string>INSTANCE</string>
+		 <string>LOCAL</string>
+		 <string>IF</string>
+		 <string>THEN</string>
+		 <string>ELSE</string>
+		 <string>LET</string>
+		 <string>IN</string>
+		 <string>SUBSET</string>
+		 <string>CHOOSE</string>
+		 <string>DOMAIN</string>
+		 <string>LAMBDA</string>
+		 <string>EXCEPT</string>
+		 <string>UNION</string>
+		 <string>EXCEPT</string>
+		 <string>ENABLED</string>
+		 <string>UNCHANGED</string>
+		 <string>WF_</string>
+		 <string>CASE</string>
+		 <string>WITH</string>
+		 <string>OTHER</string>
+		 <string>BOOLEAN</string>
+		 <string>TRUE</string>
+		 <string>FALSE</string>
+		 <string>\A</string>
+		 <string>\E</string>
+		 <string>/\</string>
+		 <string>\/</string>
+		 <string>=&gt;</string>
+		 <string>&lt;&gt;</string>
+	 </array>
+	 <key>BBLMPredefinedNameList</key>
+	 <array>
+		 <string>Seq</string>
+		 <string>Len</string>
+		 <string>Tail</string>
+		 <string>Head</string>
+		 <string>Append</string>
+		 <string>\cap</string>
+		 <string>\cup</string>
+		 <string>\in</string>
+		 <string>\intersect</string>
+		 <string>\land</string>
+		 <string>\leq</string>
+		 <string>\lor</string>
+		 <string>\notin</string>
+		 <string>\subset</string>
+		 <string>\subseteq</string>
+		 <string>\union</string>
+	 </array>
+	 <key>BBLMLanguageCode</key>
+	 <string>TLAs</string>
+	 <key>BBLMLanguageDisplayName</key>
+	 <string>TLASpec</string>
+	 <key>BBLMScansFunctions</key>
+	 <true/>
+	 
+	 
+	<key>BBLMCommentPrefixDefault</key>
+	 <string>(*</string>
+	<key>BBLMCommentSuffixDefault</key>
+	 <string>*)</string>
+	 <key>BBLMCommentLineDefault</key>
+	 <string>\* </string>
+	 
+		 
+	 <key>BBLMSuffixMap</key>
+	 <array>
+		 <dict>
+			 <key>BBLMLanguageSuffix</key>    
+			 <string>.tla</string>  
+			 <key>BBLMIsSourceKind</key>    
+			 <true/>         
+		 </dict>
+		 <dict>
+			 <key>BBLMLanguageSuffix</key>    
+			 <string>.cfg</string>
+			 <key>BBLMIsSourceKind</key>    
+			 <true/>          
+		 </dict>
+	 </array>
+	 
+	 <key>Language Features</key>
+	 <dict>
+		 <key>Close Block Comments</key>
+		 <string>*)</string>
+		 <key>Close Parameter Lists</key>
+		 <string>)</string>
+		 <key>Close Strings 1</key>
+		 <string>"</string>
+		 <key>Close Strings 2</key>
+		 <string>'</string>
+		 <key>End-of-line Ends Strings 1</key>
+		 <true/>
+		 <key>End-of-line Ends Strings 2</key>
+		 <true/>
+		 <key>Escape Char in Strings 1</key>
+		 <string>\</string>
+		 <key>Escape Char in Strings 2</key>
+		 <string></string>
+		 <key>Identifier and Keyword Characters</key>
+		 <string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_\\</string>
+		 <key>Open Block Comments</key>
+		 <string>(*</string>
+		<key>Open Line Comments</key>
+		<string>\*</string>
+		 <key>Open Parameter Lists</key>
+		 <string>(</string>
+		 <key>Open Statement Blocks</key>
+		 <string>&lt;&lt;</string>
+		 <key>Close Statement Blocks</key>
+		 <string>&gt;&gt;</string>
+		 <key>Open Strings 1</key>
+		 <string>"</string>
+		 <key>Prefix for Functions</key>
+		 <string></string>
+		 <key>Prefix for Procedures</key>
+		 <string></string>
+		 <key>Terminator for Prototypes 1</key>
+		 <string></string>
+		 <key>Terminator for Prototypes 2</key>
+		 <string></string>
+	 </dict>
+ </dict>
+ </plist> 

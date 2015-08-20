@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+ <!--
+	BBEdit codeless language module for Prolog source files.
+	
+	Built from the BBEedit Template
+	by Michael Leuschel (http://www.stups.uni-duesseldorf.de/~leuschel/)
+	Date of this version: Aug 2015
+	
+	Requires BBEdit 8.0 or higher. To install, copy the file to:
+		~/Library/Application Support/BBEdit/Language Modules/
+		(or /Users/leuschel/Dropbox/Application Support/BBEdit/Language Modules in case you sync with DropBox)
+	and relaunch BBEdit.
+    This module is licenced under EPL 1.0 (http://www.eclipse.org/org/documents/epl-v10.html) 
+-->
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	<key>BBLMIsCaseSensitive</key>
+	<true/>
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>forall</string>
+		<string>setof</string>
+		<string>print</string>
+		<string>print_message</string>
+		<string>format</string>
+		<string>portray_clause</string>
+		<string>nl</string>
+		<string>write</string>
+		<string>read</string>
+		<string>write_term</string>
+		<string>read_term</string>
+		<string>open</string>
+		<string>close</string>
+		<string>copy_term</string>
+		<string>term_variables</string>
+		<string>term_variables_bag</string>
+		<string>free_of_var</string>
+		<string>contains_var</string>
+		<string>cyclic_term</string>
+		<string>acyclic_term</string>
+		<string>variant</string>
+		<string>append</string>
+		<string>member</string>
+		<string>nonmember</string>
+		<string>length</string>
+		<string>maplist</string>
+		<string>convlist</string>
+		<string>exclude</string>
+		<string>module</string>
+		<string>use_module</string>
+		<string>include</string>
+		<string>op</string>
+		<string>ensure_loaded</string>
+		<string>dynamic</string>
+		<string>volatile</string>
+		<string>library</string>
+		<string>when</string>
+		<string>time_out</string>
+		<string>call_residue</string>
+		<string>call</string>
+		<string>is</string>
+		<string>dif</string>
+		<string>functor</string>
+		<string>name</string>
+		<string>atom_concat</string>
+		<string>atom_codes</string>
+		<string>atom_chars</string>
+		<string>atom_length</string>
+		<string>atom_concat</string>
+		<string>number_codes</string>
+		<string>number_chars</string>
+		<string>numbervars</string>
+		<string>on_exception</string>
+		<string>atom</string>
+		<string>atomic</string>
+		<string>number</string>
+		<string>sort</string>
+		<string>integer</string>
+		<string>float</string>
+		<string>nonvar</string>
+		<string>ground</string>
+		<string>var</string>
+		<string>arg</string>
+		<string>assert</string>
+		<string>retract</string>
+		<string>retractall</string>
+		<string>true</string>
+		<string>if</string>
+		<string>elif</string>
+		<string>endif</string>
+		<string>endif.</string>
+		<string>else</string>
+		<string>else.</string>
+		<string>true.</string>
+		<string>fail</string>
+		<string>fail.</string>
+		<string>otherwise</string>
+		<string>repeat</string>
+		<string>findall</string>
+		<string>clause</string>
+		<string>block</string>
+		<string>discontiguous</string>
+		<string>multifile</string>
+		<string>:-</string>
+		<string>--&gt;</string>
+		<string>-&gt;</string>
+		<string>\+</string>
+		<string>\==</string>
+		<string>\=</string>
+		<string>==</string>
+		<string>=..</string>
+		<string>!.</string>
+		<string>!</string>
+		<string>=</string>
+		<string>;</string>
+		<string>[].</string>
+		<string>[]</string>
+		<string>=[]</string>
+		<string>=[].</string>
+		<string>[]=</string>
+		<string>_</string>
+		<string>.</string>
+		<string>+</string>
+		<string>-</string>
+		<string>mod</string>
+		<string>[A-Z_][a-zA-Z0-9_]*</string>
+	</array>
+	 
+	 <key>BBLMPredefinedNameList</key>
+	 <array>
+		<string>assert_must_succeed</string>
+		<string>assert_must_fail</string>
+		<string>assert_pre</string>
+		<string>assert_post</string>
+		<string>meta_predicate</string>
+		<string>multifile</string>
+		<string>begin_tests</string>
+		<string>end_tests</string>
+	 </array>
+	<key>BBLMLanguageCode</key>
+	<string>Prol</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>Prolog</string>
+	<key>BBLMScansFunctions</key>
+	<true/>
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.pro</string>
+			<key>BBLMIsSourceKind</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.gx</string>
+			<key>BBLMIsSourceKind</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.prob</string>
+			<key>BBLMIsSourceKind</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.eventb</string>
+			<key>BBLMIsSourceKind</key>
+			<true/>
+		</dict>
+	</array>
+	 <key>BBLMCommentLineDefault</key>
+	 <string>%</string>
+	<key>Language Features</key>
+	<dict>
+		<key>Close Block Comments</key>
+		<string>*/</string>
+		<key>Close Parameter Lists</key>
+		<string>)</string>
+		<key>Close Statement Blocks</key>
+		<string>.</string>
+		<key>Close Strings 1</key>
+		<string>&quot;</string>
+		<key>Close Strings 2</key>
+		<string>&apos;</string>
+		<key>End-of-line Ends Strings 1</key>
+		<true/>
+		<key>End-of-line Ends Strings 2</key>
+		<true/>
+		<key>Escape Char in Strings 1</key>
+		<string>\</string>
+		<key>Escape Char in Strings 2</key>
+		<string></string>
+		<key>Identifier and Keyword Characters</key>
+		<string>_abcdefghijklmnopqrstuvwxyz:-=-!.\&gt;;[]+</string>
+		<key>Open Block Comments</key>
+		<string>/*</string>
+		<key>Open Line Comments</key>
+		<string>%</string>
+		<key>Open Parameter Lists</key>
+		<string>(</string>
+		<key>Open Statement Blocks</key>
+		<string>:-</string>
+		<key>Open Strings 1</key>
+		<string>&quot;</string>
+		<key>Open Strings 2</key>
+		<string>&apos;</string>
+		<key>Prefix for Functions</key>
+		<string>block</string>
+		<key>Prefix for Procedures</key>
+		<string>mode</string>
+		<key>Terminator for Prototypes 1</key>
+		<string></string>
+		<key>Terminator for Prototypes 2</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>
