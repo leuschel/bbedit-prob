@@ -50,14 +50,16 @@
 		<string>length</string>
 		<string>maplist</string>
 		<string>convlist</string>
+		<string>cumlist</string>
+		<string>scanlist</string>
+		<string>some</string>
+		<string>somechk</string>
 		<string>exclude</string>
 		<string>module</string>
 		<string>use_module</string>
 		<string>include</string>
 		<string>op</string>
 		<string>ensure_loaded</string>
-		<string>dynamic</string>
-		<string>volatile</string>
 		<string>library</string>
 		<string>when</string>
 		<string>time_out</string>
@@ -103,9 +105,6 @@
 		<string>repeat</string>
 		<string>findall</string>
 		<string>clause</string>
-		<string>block</string>
-		<string>discontiguous</string>
-		<string>multifile</string>
 		<string>:-</string>
 		<string>--&gt;</string>
 		<string>-&gt;</string>
@@ -133,14 +132,20 @@
 	 
 	 <key>BBLMPredefinedNameList</key>
 	 <array>
-		<string>assert_must_succeed</string>
 		<string>assert_must_fail</string>
-		<string>assert_pre</string>
+		<string>assert_must_succeed</string>
 		<string>assert_post</string>
+		<string>assert_pre</string>
+		<string>begin_tests</string>
+		<string>block</string>
+		<string>discontiguous</string>
+		<string>dynamic</string>
+		<string>end_tests</string>
 		<string>meta_predicate</string>
 		<string>multifile</string>
-		<string>begin_tests</string>
-		<string>end_tests</string>
+		<string>public</string>
+		<string>volatile</string>
+
 	 </array>
 	<key>BBLMLanguageCode</key>
 	<string>Prol</string>
