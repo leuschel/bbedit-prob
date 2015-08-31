@@ -23,88 +23,104 @@
 	<true/>
 	<key>BBLMKeywordList</key>
 	<array>
-		<string>forall</string>
-		<string>setof</string>
-		<string>print</string>
-		<string>print_message</string>
-		<string>format</string>
-		<string>portray_clause</string>
-		<string>nl</string>
-		<string>write</string>
-		<string>read</string>
-		<string>write_term</string>
-		<string>read_term</string>
-		<string>open</string>
-		<string>close</string>
-		<string>copy_term</string>
-		<string>term_variables</string>
-		<string>term_variables_bag</string>
-		<string>free_of_var</string>
-		<string>contains_var</string>
-		<string>cyclic_term</string>
 		<string>acyclic_term</string>
-		<string>variant</string>
 		<string>append</string>
-		<string>member</string>
-		<string>nonmember</string>
-		<string>length</string>
-		<string>maplist</string>
-		<string>convlist</string>
-		<string>cumlist</string>
-		<string>scanlist</string>
-		<string>some</string>
-		<string>somechk</string>
-		<string>exclude</string>
-		<string>module</string>
-		<string>use_module</string>
-		<string>include</string>
-		<string>op</string>
-		<string>ensure_loaded</string>
-		<string>library</string>
-		<string>when</string>
-		<string>time_out</string>
-		<string>call_residue</string>
-		<string>call</string>
-		<string>is</string>
-		<string>dif</string>
-		<string>functor</string>
-		<string>name</string>
-		<string>atom_concat</string>
-		<string>atom_codes</string>
-		<string>atom_chars</string>
-		<string>atom_length</string>
-		<string>atom_concat</string>
-		<string>number_codes</string>
-		<string>number_chars</string>
-		<string>numbervars</string>
-		<string>on_exception</string>
-		<string>atom</string>
-		<string>atomic</string>
-		<string>number</string>
-		<string>sort</string>
-		<string>integer</string>
-		<string>float</string>
-		<string>nonvar</string>
-		<string>ground</string>
-		<string>var</string>
 		<string>arg</string>
+		<string>abolish</string>
 		<string>assert</string>
-		<string>retract</string>
-		<string>retractall</string>
-		<string>true</string>
-		<string>if</string>
+		<string>asserta</string>
+		<string>assertz</string>
+		<string>atom</string>
+		<string>atom_chars</string>
+		<string>atom_codes</string>
+		<string>atom_concat</string>
+		<string>atom_concat</string>
+		<string>atom_length</string>
+		<string>atomic</string>
+		<string>bagof</string>
+		<string>call</string>
+		<string>call_cleanup</string>
+		<string>call_residue</string>
+		<string>call_residue_vars</string>
+		<string>catch</string>
+		<string>clause</string>
+		<string>close</string>
+		<string>contains_var</string>
+		<string>convlist</string>
+		<string>copy_term</string>
+		<string>cumlist</string>
+		<string>cyclic_term</string>
+		<string>dif</string>
 		<string>elif</string>
-		<string>endif</string>
-		<string>endif.</string>
+		<string>:-elif</string>
 		<string>else</string>
 		<string>else.</string>
-		<string>true.</string>
+		<string>:-else</string>
+		<string>:-else.</string>
+		<string>endif</string>
+		<string>endif.</string>
+		<string>:-endif</string>
+		<string>:-endif.</string>
+		<string>end_of_file</string>
+		<string>ensure_loaded</string>
+		<string>exclude</string>
 		<string>fail</string>
-		<string>fail.</string>
-		<string>otherwise</string>
-		<string>repeat</string>
 		<string>findall</string>
-		<string>clause</string>
+		<string>float</string>
+		<string>forall</string>
+		<string>format</string>
+		<string>free_of_var</string>
+		<string>functor</string>
+		<string>ground</string>
+		<string>if</string>
+		<string>:-if</string>
+		<string>include</string>
+		<string>:-include</string>
+		<string>integer</string>
+		<string>is</string>
+		<string>length</string>
+		<string>library</string>
+		<string>maplist</string>
+		<string>member</string>
+		<string>module</string>
+		<string>:-module</string>
+		<string>name</string>
+		<string>nl</string>
+		<string>nonmember</string>
+		<string>nonvar</string>
+		<string>number</string>
+		<string>number_chars</string>
+		<string>number_codes</string>
+		<string>numbervars</string>
+		<string>on_exception</string>
+		<string>op</string>
+		<string>once</string>
+		<string>open</string>
+		<string>otherwise</string>
+		<string>portray_clause</string>
+		<string>print</string>
+		<string>print_message</string>
+		<string>read</string>
+		<string>read_term</string>
+		<string>repeat</string>
+		<string>retract</string>
+		<string>retractall</string>
+		<string>scanlist</string>
+		<string>setof</string>
+		<string>some</string>
+		<string>somechk</string>
+		<string>sort</string>
+		<string>term_variables</string>
+		<string>term_variables_bag</string>
+		<string>time_out</string>
+		<string>true</string>
+		<string>use_module</string>
+		<string>:-use_module</string>
+		<string>var</string>
+		<string>variant</string>
+		<string>when</string>
+		<string>write</string>
+		<string>write_term</string>
 		<string>:-</string>
 		<string>--&gt;</string>
 		<string>-&gt;</string>
@@ -113,17 +129,13 @@
 		<string>\=</string>
 		<string>==</string>
 		<string>=..</string>
-		<string>!.</string>
 		<string>!</string>
 		<string>=</string>
 		<string>;</string>
-		<string>[].</string>
 		<string>[]</string>
 		<string>=[]</string>
-		<string>=[].</string>
 		<string>[]=</string>
 		<string>_</string>
-		<string>.</string>
 		<string>+</string>
 		<string>-</string>
 		<string>mod</string>
@@ -138,12 +150,16 @@
 		<string>assert_pre</string>
 		<string>begin_tests</string>
 		<string>block</string>
+		<string>chr_constraint</string>
+		<string>chr_option</string>
 		<string>discontiguous</string>
 		<string>dynamic</string>
+		<string>:-dynamic</string>
 		<string>end_tests</string>
 		<string>meta_predicate</string>
 		<string>multifile</string>
 		<string>public</string>
+		<string>:-public</string>
 		<string>volatile</string>
 
 	 </array>
@@ -203,7 +219,7 @@
 		<key>Escape Char in Strings 2</key>
 		<string></string>
 		<key>Identifier and Keyword Characters</key>
-		<string>_abcdefghijklmnopqrstuvwxyz:-=-!.\&gt;;[]+</string>
+		<string>_abcdefghijklmnopqrstuvwxyz:-=-!\&gt;;[]+</string>
 		<key>Open Block Comments</key>
 		<string>/*</string>
 		<key>Open Line Comments</key>
