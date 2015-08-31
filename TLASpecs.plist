@@ -54,6 +54,7 @@
 		 <string>WITH</string>
 		 <string>OTHER</string>
 		 <string>BOOLEAN</string>
+		 <string>RECURSIVE</string>
 		 <string>TRUE</string>
 		 <string>FALSE</string>
 		 <string>\A</string>
