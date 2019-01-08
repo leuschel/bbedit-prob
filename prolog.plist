@@ -21,10 +21,13 @@
 	<true/>
 	<key>BBLMIsCaseSensitive</key>
 	<true/>
+	 <key>BBLMSupportsTextCompletion</key>
+	 <true/>
 	<key>BBLMKeywordList</key>
 	<array>
 		<string>acyclic_term</string>
 		<string>append</string>
+		<string>append_length</string>
 		<string>arg</string>
 		<string>abolish</string>
 		<string>assert</string>
@@ -48,8 +51,10 @@
 		<string>contains_var</string>
 		<string>convlist</string>
 		<string>copy_term</string>
+		<string>correspond</string>
 		<string>cumlist</string>
 		<string>cyclic_term</string>
+		<string>delete</string>
 		<string>dif</string>
 		<string>elif</string>
 		<string>:-elif</string>
@@ -72,20 +77,31 @@
 		<string>free_of_var</string>
 		<string>functor</string>
 		<string>ground</string>
+		<string>group</string>
 		<string>if</string>
 		<string>:-if</string>
 		<string>include</string>
 		<string>:-include</string>
 		<string>integer</string>
 		<string>is</string>
+		<string>keys_and_values</string>
+		<string>last</string>
 		<string>length</string>
 		<string>library</string>
+		<string>list_to_ord_set</string>
 		<string>maplist</string>
+		<string>map_product</string>
+		<string>max_member</string>
 		<string>member</string>
+		<string>memberchk</string>
+		<string>min_member</string>
 		<string>module</string>
 		<string>:-module</string>
 		<string>name</string>
 		<string>nl</string>
+		<string>nth</string>
+		<string>nth0</string>
+		<string>nth1</string>
 		<string>nonmember</string>
 		<string>nonvar</string>
 		<string>number</string>
@@ -96,23 +112,54 @@
 		<string>op</string>
 		<string>once</string>
 		<string>open</string>
+		<string>ord_add_element</string>
+		<string>ord_disjoint</string>
+		<string>ord_intersection</string>
+		<string>ord_member</string>
+		<string>ord_nonmember</string>
+		<string>ord_subtract</string>
+		<string>ord_union</string>
+		<string>ord_subtract</string>
+		<string>ordered</string>
 		<string>otherwise</string>
+		<string>partition</string>
+		<string>perm</string>
+		<string>perm2</string>
+		<string>permutation</string>
 		<string>portray_clause</string>
+		<string>prefix</string>
+		<string>prefix_length</string>
 		<string>print</string>
-		<string>print_message</string>
+		<string>proper_length</string>
+		<string>remove_dups</string>
 		<string>read</string>
 		<string>read_term</string>
+		<string>remove_dups</string>
 		<string>repeat</string>
 		<string>retract</string>
 		<string>retractall</string>
+		<string>reverse</string>
+		<string>rotate_list</string>
+		<string>same_length</string>
 		<string>scanlist</string>
+		<string>segment</string>
+		<string>select</string>
+		<string>selectchk</string>
+		<string>select_max</string>
+		<string>select_min</string>
 		<string>setof</string>
 		<string>some</string>
 		<string>somechk</string>
 		<string>sort</string>
+		<string>sublist</string>
+		<string>subseq</string>
+		<string>sumlist</string>
+		<string>suffix</string>
+		<string>suffix_length</string>
 		<string>term_variables</string>
 		<string>term_variables_bag</string>
 		<string>time_out</string>
+		<string>transpose</string>
 		<string>true</string>
 		<string>use_module</string>
 		<string>:-use_module</string>
