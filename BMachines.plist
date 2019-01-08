@@ -22,10 +22,13 @@
 	 <true/>
 	 <key>BBLMIsCaseSensitive</key>
 	 <true/>
+	 <key>BBLMSupportsTextCompletion</key>
+	 <true/>
 	 <key>BBLMKeywordList</key>
 	 <array>
 		 <string>MACHINE</string>
 		 <string>MODEL</string>
+		 <string>SYSTEM</string>
 		 <string>REFINEMENT</string>
 		 <string>IMPLEMENTATION</string>
 		 <string>REFINES</string>
@@ -54,6 +57,7 @@
 		 <string>ABSTRACT_CONSTANTS</string>
 		 <string>CONCRETE_CONSTANTS</string>
 		 <string>PROPERTIES</string>
+		 <string>VALUES</string>
 		 <string>SELECT</string>
 		 <string>THEN</string>
 		 <string>END</string>
@@ -76,6 +80,31 @@
 		 <string>IN</string>
 		 <string>CASE</string>
 		 <string>OF</string>
+		 
+		 <string>ref</string>
+		 
+		 <string>RULES_MACHINE</string>
+		 <string>RULE_ANY</string>
+		 <string>RULE_FORALL</string>
+		 <string>RULEID</string>
+		 <string>RULE</string>
+		 <string>COMPUTATION</string>
+		 <string>DEPENDS_ON_COMPUTATION</string>
+		 <string>DEPENDS_ON_RULE</string>
+		 <string>COUNTEREXAMPLE</string>
+		 <string>EXPECT</string>
+		 <string>ERROR_TYPE</string>
+		 <string>ERROR_TYPES</string>
+		 <string>BODY</string>
+		 <string>REFERENCES</string>
+		 <string>SUCCEEDED_RULE</string>
+		 <string>FAILED_RULE</string>
+		 <string>GET_RULE_COUNTEREXAMPLES</string>
+		 <string>FUNCTION</string>
+		 <string>PRECONDITION</string>
+		 <string>DEFINE</string>
+		 <string>TYPE</string>
+		 <string>VALUE</string>
 	 </array>
 	 
 	 <key>BBLMPredefinedNameList</key>
@@ -132,14 +161,141 @@
 		 <string>BOOL</string>
 		 <string>TRUE</string>
 		 <string>FALSE</string>
-		 <string>Struct</string>
+		 <string>fnc</string>
+		 <string>rel</string>
 		 <string>rec</string>
+		 <string>struct</string>
 		 <string>left</string>
 		 <string>right</string>
 		 <string>tree</string>
-		 <string>SET_PREF_SYMBOLIC</string>
+		 <string>btree</string>
+		 <string>top</string>
+		 <string>postfix</string>
+		 <string>mirror</string>
+		 <string>prefix</string>
+		 <string>infix</string>
+		 <string>sons</string>
+		 <string>bin</string>
+		 <string>son</string>
+		 <string>arity</string>
+		 <string>subtree</string>
+		 <string>rank</string>
+		 <string>father</string>
+		 <string>const</string>
+		 <string>sizet</string>
+		 <string>SET_PREF_ALLOW_LOCAL_OPERATION_CALLS</string>
+		 <string>SET_PREF_CHR</string>
+		 <string>SET_PREF_CLPFD</string>
+		 <string>SET_PREF_COMPRESSION</string>
+		 <string>SET_PREF_CSE</string>
+		 <string>SET_PREF_DEFAULT_SETSIZE</string>
+		 <string>SET_PREF_EXPAND_FORALL_UPTO</string>
+		 <string>SET_PREF_INVARIANT_CHECKING</string>
+		 <string>SET_PREF_KODKOD</string>
+		 <string>SET_PREF_KODKOD_ONLY_FULL</string>
+		 <string>SET_PREF_KODKOD_MAX_NR_SOLS</string>
+		 <string>SET_PREF_KODKOD_SYMMETRY</string>
+		 <string>SET_PREF_KODKOD_SAT_SOLVER</string>
 		 <string>SET_PREF_MAXINT</string>
+		 <string>SET_PREF_MAX_DISPLAY_SET</string>
+		 <string>SET_PREF_MAX_INITIALISATIONS</string>
+		 <string>SET_PREF_MAX_OPERATIONS</string>
+		 <string>SET_PREF_MEMO</string>
 		 <string>SET_PREF_MININT</string>
+		 <string>SET_PREF_OPTIMIZE_AST</string>
+		 <string>SET_PREF_PGE</string>
+		 <string>SET_PREF_PROOF_INFO</string>
+		 <string>SET_PREF_RANDOMISE_ENUMERATION_ORDER</string>
+		 <string>SET_PREF_SMT</string>
+		 <string>SET_PREF_SMT_SUPPORTED_INTERPRETER</string>
+		 <string>SET_PREF_STATIC_ORDERING</string>
+		 <string>SET_PREF_STATIC_SYMMETRY_DETECTION</string>
+		 <string>SET_PREF_SYMBOLIC</string>
+		 <string>SET_PREF_SYMMETRY_MODE</string>
+		 <string>SET_PREF_TIME_OUT</string>
+		 <string>SET_PREF_TK_CUSTOM_STATE_VIEW_PADDING</string>
+		 <string>SET_PREF_TK_CUSTOM_STATE_VIEW_STRING_PADDING</string>
+		 <string>SET_PREF_TRACE_INFO</string>
+		 <string>SET_PREF_TRY_FIND_ABORT</string>
+		 <string>SET_PREF_TYPE_CHECK_DEFINITIONS</string>
+		 <string>SET_PREF_USE_RECORD_CONSTRUCTION</string>
+		 <string>HEURISTIC_FUNCTION</string>
+		 <string>CUSTOM_GRAPH_EDGES</string>
+		 <string>CUSTOM_GRAPH_NODES</string>
+		 <string>ANIMATION_IMG</string>
+		 <string>ANIMATION_IMG0</string>
+		 <string>ANIMATION_IMG1</string>
+		 <string>ANIMATION_IMG2</string>
+		 <string>ANIMATION_IMG3</string>
+		 <string>ANIMATION_IMG4</string>
+		 <string>ANIMATION_IMG5</string>
+		 <string>ANIMATION_IMG6</string>
+		 <string>ANIMATION_IMG7</string>
+		 <string>ANIMATION_IMG8</string>
+		 <string>ANIMATION_IMG9</string>
+		 <string>ANIMATION_FUNCTION_DEFAULT</string>
+		 <string>ANIMATION_FUNCTION</string>
+		 <string>ANIMATION_FUNCTION0</string>
+		 <string>ANIMATION_FUNCTION1</string>
+		 <string>ANIMATION_FUNCTION2</string>
+		 <string>ANIMATION_FUNCTION3</string>
+		 <string>ANIMATION_FUNCTION4</string>
+		 <string>ANIMATION_FUNCTION5</string>
+		 <string>ANIMATION_FUNCTION6</string>
+		 <string>ANIMATION_FUNCTION7</string>
+		 <string>ANIMATION_FUNCTION8</string>
+		 <string>ANIMATION_FUNCTION9</string>
+		 <string>ANIMATION_RIGHT_CLICK</string>
+		 <string>ANIMATION_CLICK</string>
+		 <string>ANIMATION_STR_JUSTIFY_LEFT</string>
+		 <string>ANIMATION_STR_JUSTIFY_RIGHT</string>
+		 <string>ANIMATION_STR</string>
+		 <string>ANIMATION_STR1</string>
+		 <string>ANIMATION_STR2</string>
+		 <string>ANIMATION_STR3</string>
+		 <string>CODES_TO_STRING</string>
+		 <string>GOAL</string>
+		 <string>SCOPE</string>
+		 <string>LEQ_SYM_BREAK</string>
+		 <string>STRING_APPEND</string>
+		 <string>STRING_CONC</string>
+		 <string>STRING_LENGTH</string>
+		 <string>STRING_SPLIT</string>
+		 <string>STRING_JOIN</string>
+		 <string>STRING_CHARS</string>
+		 <string>STRING_CODES</string>
+		 <string>STRING_TO_INT</string>
+		 <string>STRING_IS_INT</string>
+		 <string>STRING_CONTAINS_STRING</string>
+		 <string>DEC_STRING_TO_INT</string>
+		 <string>STRING_TO_ENUM</string>
+		 <string>INT_TO_STRING</string>
+		 <string>INT_TO_DEC_STRING</string>
+		 <string>INT_TO_HEX_STRING</string>
+		 <string>STRINGIFY</string>
+		 <string>TO_STRING</string>
+		 <string>FORMAT_TO_STRING</string>
+		 <string>PRINT</string>
+		 <string>PRINTF</string>
+		 <string>FPRINTF</string>
+		 <string>printf</string>
+		 <string>vprintf</string>
+		 <string>fprintf</string>
+		 <string>observe</string>
+		 <string>READ_FILE_AS_STRINGS</string>
+		 <string>READ_LINE</string>
+		 <string>CHOOSE</string>
+		 <string>SORT</string>
+		 <string>SQUASH</string>
+		 <string>HASH</string>
+		 <string>SHA_HASH</string>
+		 <string>SHA_HASH_HEX</string>
+		 <string>READ_CSV</string>
+		 <string>READ_CSV_SEQUENCE</string>
+		 <string>READ_XML</string>
+		 <string>READ_XML_FROM_STRING</string>
+		 <string>WRITE_XML</string>
+		 <string>WRITE_XML_TO_STRING</string>
 	 </array>
 	 
 	 <key>BBLMLanguageCode</key>
@@ -193,6 +349,10 @@
 		 <string>"</string>
 		 <key>Close Strings 1</key>
 		 <string>"</string>
+		 <key>Open Strings 2</key>
+		 <string>'''</string>
+		 <key>Close Strings 2</key>
+		 <string>'''</string>
 		 <key>End-of-line Ends Strings 1</key>
 		 <true/>
 		 <key>End-of-line Ends Strings 2</key>
