@@ -42,18 +42,27 @@
 		<string>atomic</string>
 		<string>bagof</string>
 		<string>call</string>
+		<string>callable</string>
 		<string>call_cleanup</string>
 		<string>call_residue</string>
 		<string>call_residue_vars</string>
 		<string>catch</string>
+		<string>char_code</string>
 		<string>clause</string>
 		<string>close</string>
+		<string>clumped</string>
+		<string>clumps</string>
+		<string>compare</string>
+		<string>compound</string>
 		<string>contains_var</string>
 		<string>convlist</string>
+		<string>cons</string>
 		<string>copy_term</string>
 		<string>correspond</string>
+		<string>create_mutable</string>
 		<string>cumlist</string>
 		<string>cyclic_term</string>
+		<string>db_reference</string>
 		<string>delete</string>
 		<string>dif</string>
 		<string>elif</string>
@@ -75,16 +84,23 @@
 		<string>forall</string>
 		<string>format</string>
 		<string>free_of_var</string>
+		<string>frozen</string>
 		<string>functor</string>
+		<string>get_mutable</string>
 		<string>ground</string>
 		<string>group</string>
+		<string>head</string>
 		<string>if</string>
 		<string>:-if</string>
 		<string>include</string>
 		<string>:-include</string>
 		<string>integer</string>
 		<string>is</string>
+		<string>is_list</string>
+		<string>keyclumped</string>
+		<string>keyclumps</string>
 		<string>keys_and_values</string>
+		<string>keysort</string>
 		<string>last</string>
 		<string>length</string>
 		<string>library</string>
@@ -97,7 +113,9 @@
 		<string>min_member</string>
 		<string>module</string>
 		<string>:-module</string>
+		<string>mutable</string>
 		<string>name</string>
+		<string>nextto</string>
 		<string>nl</string>
 		<string>nth</string>
 		<string>nth0</string>
@@ -111,6 +129,7 @@
 		<string>on_exception</string>
 		<string>op</string>
 		<string>once</string>
+		<string>one_longer</string>
 		<string>open</string>
 		<string>ord_add_element</string>
 		<string>ord_disjoint</string>
@@ -138,6 +157,7 @@
 		<string>repeat</string>
 		<string>retract</string>
 		<string>retractall</string>
+		<string>rev</string>
 		<string>reverse</string>
 		<string>rotate_list</string>
 		<string>same_length</string>
@@ -148,19 +168,25 @@
 		<string>select_max</string>
 		<string>select_min</string>
 		<string>setof</string>
+		<string>shorter_list</string>
+		<string>simple</string>
 		<string>some</string>
 		<string>somechk</string>
 		<string>sort</string>
+		<string>sub_atom</string>
 		<string>sublist</string>
 		<string>subseq</string>
+		<string>subsumes_term</string>
 		<string>sumlist</string>
 		<string>suffix</string>
 		<string>suffix_length</string>
+		<string>tail</string>
 		<string>term_variables</string>
 		<string>term_variables_bag</string>
 		<string>time_out</string>
 		<string>transpose</string>
 		<string>true</string>
+		<string>unify_with_occurs_check</string>
 		<string>use_module</string>
 		<string>:-use_module</string>
 		<string>var</string>
