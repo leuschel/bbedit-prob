@@ -73,6 +73,8 @@
 		 <string>Append</string>
 		 <string>\cap</string>
 		 <string>\cup</string>
+		 <string>\div</string>
+		 <string>\geq</string>
 		 <string>\in</string>
 		 <string>\intersect</string>
 		 <string>\land</string>
