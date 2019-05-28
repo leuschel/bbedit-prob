@@ -184,11 +184,13 @@
 		 <string>const</string>
 		 <string>sizet</string>
 		 <string>SET_PREF_ALLOW_LOCAL_OPERATION_CALLS</string>
+		 <string>SET_PREF_ALLOW_INCOMPLETE_SETUP_CONSTANTS</string>
 		 <string>SET_PREF_CHR</string>
 		 <string>SET_PREF_CLPFD</string>
 		 <string>SET_PREF_COMPRESSION</string>
 		 <string>SET_PREF_CSE</string>
 		 <string>SET_PREF_DEFAULT_SETSIZE</string>
+		 <string>SET_PREF_DOUBLE_EVALUATION</string>
 		 <string>SET_PREF_EXPAND_FORALL_UPTO</string>
 		 <string>SET_PREF_INVARIANT_CHECKING</string>
 		 <string>SET_PREF_KODKOD</string>
@@ -287,6 +289,7 @@
 		 <string>CHOOSE</string>
 		 <string>SORT</string>
 		 <string>SQUASH</string>
+		 <string>SUB_STRING</string>
 		 <string>HASH</string>
 		 <string>SHA_HASH</string>
 		 <string>SHA_HASH_HEX</string>
