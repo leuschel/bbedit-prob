@@ -59,7 +59,9 @@
 		<string>avl_range</string>
 		<string>avl_size</string>
 		<string>avl_store</string>
+		<string>avl_to_list</string>
 		<string>bagof</string>
+		<string>between</string>
 		<string>call</string>
 		<string>callable</string>
 		<string>call_cleanup</string>
@@ -102,6 +104,7 @@
 		<string>:-endif.</string>
 		<string>end_of_file</string>
 		<string>ensure_loaded</string>
+		<string>environ</string>
 		<string>exclude</string>
 		<string>fail</string>
 		<string>fd_closure</string>
@@ -140,6 +143,7 @@
 		<string>:-include</string>
 		<string>integer</string>
 		<string>is</string>
+		<string>is_avl</string>
 		<string>is_list</string>
 		<string>keyclumped</string>
 		<string>keyclumps</string>
@@ -157,6 +161,8 @@
 		<string>member</string>
 		<string>memberchk</string>
 		<string>min_member</string>
+		<string>mode</string>
+		<string>:-mode</string>
 		<string>module</string>
 		<string>:-module</string>
 		<string>mutable</string>
@@ -208,6 +214,7 @@
 		<string>proper_prefix_length</string>
 		<string>proper_suffix_length</string>
 		<string>put_atts</string>
+		<string>put_code</string>
 		<string>remove_dups</string>
 		<string>random</string>
 		<string>random_member</string>
@@ -251,6 +258,7 @@
 		<string>term_hash</string>
 		<string>term_variables</string>
 		<string>term_variables_bag</string>
+		<string>term_size</string>
 		<string>time_out</string>
 		<string>transpose</string>
 		<string>true</string>
