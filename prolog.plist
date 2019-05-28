@@ -26,6 +26,8 @@
 	<key>BBLMKeywordList</key>
 	<array>
 		<string>acyclic_term</string>
+		<string>all_different</string>
+		<string>all_distinct</string>
 		<string>append</string>
 		<string>append_length</string>
 		<string>arg</string>
@@ -40,6 +42,23 @@
 		<string>atom_concat</string>
 		<string>atom_length</string>
 		<string>atomic</string>
+		<string>avl_change</string>
+		<string>avl_delete</string>
+		<string>avl_del_max</string>
+		<string>avl_del_min</string>
+		<string>avl_domain</string>
+		<string>avl_fetch</string>
+		<string>avl_height</string>
+		<string>avl_incr</string>
+		<string>avl_map</string>
+		<string>avl_max</string>
+		<string>avl_member</string>
+		<string>avl_min</string>
+		<string>avl_next</string>
+		<string>avl_prev</string>
+		<string>avl_range</string>
+		<string>avl_size</string>
+		<string>avl_store</string>
 		<string>bagof</string>
 		<string>call</string>
 		<string>callable</string>
@@ -57,20 +76,26 @@
 		<string>contains_var</string>
 		<string>convlist</string>
 		<string>cons</string>
+		<string>consult</string>
 		<string>copy_term</string>
 		<string>correspond</string>
 		<string>create_mutable</string>
 		<string>cumlist</string>
 		<string>cyclic_term</string>
+		<string>datime</string>
 		<string>db_reference</string>
 		<string>delete</string>
 		<string>dif</string>
+		<string>directory_exists</string>
+		<string>directory_member_of_directory</string>
+		<string>directory_members_of_directory</string>
 		<string>elif</string>
 		<string>:-elif</string>
 		<string>else</string>
 		<string>else.</string>
 		<string>:-else</string>
 		<string>:-else.</string>
+		<string>empty_avl</string>
 		<string>endif</string>
 		<string>endif.</string>
 		<string>:-endif</string>
@@ -79,13 +104,32 @@
 		<string>ensure_loaded</string>
 		<string>exclude</string>
 		<string>fail</string>
+		<string>fd_closure</string>
+		<string>fd_degree</string>
+		<string>fd_dom</string>
+		<string>fd_max</string>
+		<string>fd_min</string>
+		<string>fd_neighbors</string>
+		<string>fd_set</string>
+		<string>fd_size</string>
+		<string>fd_statistics</string>
+		<string>fd_var</string>
+		<string>fdset_intersect</string>
+		<string>fdset_member</string>
+		<string>fdset_parts</string>
+		<string>file_exists</string>
+		<string>file_member_of_directory</string>
+		<string>file_members_of_directory</string>
+		<string>file_property</string>
 		<string>findall</string>
 		<string>float</string>
 		<string>forall</string>
 		<string>format</string>
+		<string>format_to_codes</string>
 		<string>free_of_var</string>
 		<string>frozen</string>
 		<string>functor</string>
+		<string>get_atts</string>
 		<string>get_mutable</string>
 		<string>ground</string>
 		<string>group</string>
@@ -101,9 +145,11 @@
 		<string>keyclumps</string>
 		<string>keys_and_values</string>
 		<string>keysort</string>
+		<string>labeling</string>
 		<string>last</string>
 		<string>length</string>
 		<string>library</string>
+		<string>list_to_avl</string>
 		<string>list_to_ord_set</string>
 		<string>maplist</string>
 		<string>map_product</string>
@@ -131,28 +177,48 @@
 		<string>once</string>
 		<string>one_longer</string>
 		<string>open</string>
+		<string>open_codes_stream</string>
 		<string>ord_add_element</string>
+		<string>ord_del_element</string>
 		<string>ord_disjoint</string>
+		<string>ord_disjoint_union</string>
 		<string>ord_intersection</string>
+		<string>ord_intersect</string>
+		<string>ord_list_to_avl</string>
 		<string>ord_member</string>
 		<string>ord_nonmember</string>
+		<string>ord_seteq</string>
+		<string>ord_setproduct</string>
+		<string>ord_subset</string>
 		<string>ord_subtract</string>
+		<string>ord_symdiff</string>
 		<string>ord_union</string>
-		<string>ord_subtract</string>
 		<string>ordered</string>
 		<string>otherwise</string>
 		<string>partition</string>
 		<string>perm</string>
 		<string>perm2</string>
 		<string>permutation</string>
+		<string>portray_avl</string>
 		<string>portray_clause</string>
 		<string>prefix</string>
 		<string>prefix_length</string>
 		<string>print</string>
 		<string>proper_length</string>
+		<string>proper_prefix_length</string>
+		<string>proper_suffix_length</string>
+		<string>put_atts</string>
 		<string>remove_dups</string>
+		<string>random</string>
+		<string>random_member</string>
+		<string>random_numlist</string>
+		<string>random_permutation</string>
+		<string>random_select</string>
+		<string>random_subseq</string>
 		<string>read</string>
+		<string>read_from_codes</string>
 		<string>read_term</string>
+		<string>read_term_from_codes</string>
 		<string>remove_dups</string>
 		<string>repeat</string>
 		<string>retract</string>
@@ -173,6 +239,7 @@
 		<string>some</string>
 		<string>somechk</string>
 		<string>sort</string>
+		<string>statistics</string>
 		<string>sub_atom</string>
 		<string>sublist</string>
 		<string>subseq</string>
@@ -181,19 +248,24 @@
 		<string>suffix</string>
 		<string>suffix_length</string>
 		<string>tail</string>
+		<string>term_hash</string>
 		<string>term_variables</string>
 		<string>term_variables_bag</string>
 		<string>time_out</string>
 		<string>transpose</string>
 		<string>true</string>
 		<string>unify_with_occurs_check</string>
+		<string>update_mutable</string>
 		<string>use_module</string>
 		<string>:-use_module</string>
 		<string>var</string>
 		<string>variant</string>
 		<string>when</string>
 		<string>write</string>
+		<string>with_output_to_codes</string>
 		<string>write_term</string>
+		<string>write_term_to_codes</string>
+		<string>write_to_codes</string>
 		<string>:-</string>
 		<string>--&gt;</string>
 		<string>-&gt;</string>
