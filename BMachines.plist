@@ -339,6 +339,22 @@
 		 <string>REGEX_SEARCH</string>
 		 <string>REGEX_SEARCH_ALL</string>
 		 <string>IS_REGEX</string>
+		 <string>RABS</string>
+		 <string>RAND</string>
+		 <string>RCOS</string>
+		 <string>RFRACTION</string>
+		 <string>RINTEGER</string>
+		 <string>RLOGe</string>
+		 <string>RLOG</string>
+		 <string>RMAX</string>
+		 <string>RMIN</string>
+		 <string>RNORMAL</string>
+		 <string>ROUND</string>
+		 <string>RPI</string>
+		 <string>RPOW</string>
+		 <string>RSIGN</string>
+		 <string>RSIN</string>
+		 <string>RTAN</string>
 		 <string>SORT</string>
 		 <string>SQUASH</string>
 		 <string>SUB_STRING</string>
