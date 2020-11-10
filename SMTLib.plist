@@ -45,6 +45,33 @@
 		<string>set-info</string>
 		<string>set-logic</string>
 	</array>
+	
+	 <key>BBLMPredefinedNameList</key>
+	 <array>
+		 <string>Bool</string>
+		 <string>Int</string>
+		 
+		 <string>true</string>
+		 <string>false</string>
+		 <string>and</string>
+		 <string>or</string>
+		 <string>not</string>
+		 <string>ite</string>
+		 
+		 <string>forall</string>
+		 <string>exists</string>
+		 <string>let</string>
+		 
+		 <string>Array</string>
+		 <string>as-array</string>
+		 <string>select</string>
+		 <string>store</string>
+		 <string>lambda</string>
+		 
+		 <string>record</string>
+	</array>
+		 
+		 
 	<key>BBLMLanguageCode</key>
 	<string>BSmT</string>
 	<key>BBLMLanguageDisplayName</key>
