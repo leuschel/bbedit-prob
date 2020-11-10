@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+ <!--
+	BBEdit codeless language module for SMTLib Spec source files.
+	
+	Built from the BBEedit Template
+	by Michael Leuschel (http://www.stups.uni-duesseldorf.de/~leuschel/)
+	Date of this version: Nov 2020
+	
+	Requires BBEdit 8.0 or higher. To install, copy the file to:
+		~/Library/Application Support/BBEdit/Language Modules/
+		(or /Users/leuschel/Dropbox/Application Support/BBEdit/Language Modules in case you sync with DropBox)
+	and relaunch BBEdit.
+    This module is licenced under EPL 1.0 (http://www.eclipse.org/org/documents/epl-v10.html) 
+-->
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	<key>BBLMIsCaseSensitive</key>
+	<true/>
+	<key>BBLMSupportsTextCompletion</key>
+	<true/>
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>assert</string>
+		<string>check-sat</string>
+		<string>declare-const</string>
+		<string>declare-datatypes</string>
+		<string>declare-fun</string>
+		<string>define-sort</string>
+		<string>exit</string>
+		<string>get-assertions</string>
+		<string>get-info</string>
+		<string>get-model</string>
+		<string>get-option</string>
+		<string>get-proof</string>
+		<string>get-unsat-core</string>
+		<string>get-value</string>
+		<string>help</string>
+		<string>pop</string>
+		<string>push</string>
+		<string>set-info</string>
+		<string>set-logic</string>
+	</array>
+	<key>BBLMLanguageCode</key>
+	<string>BSmT</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>SMTLib (Z3,CVC)</string>
+	<key>BBLMScansFunctions</key>
+	<true/>
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.smt2</string>
+			<key>BBLMIsSourceKind</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.smt</string>
+			<key>BBLMIsSourceKind</key>
+			<true/>
+		</dict>
+	</array>
+	<key>Language Features</key>
+	<dict>
+		<key>Close Block Comments</key>
+		<string></string>
+		
+		<key>Close Parameter Lists</key>
+		<string></string>
+		
+		<key>Close Statement Blocks</key>
+		<string>)</string>
+		
+		<key>Close Strings 1</key>
+		<string>&quot;</string>
+		
+		<key>End-of-line Ends Strings 1</key>
+		<true/>
+		<key>End-of-line Ends Strings 2</key>
+		<true/>
+		
+		<key>Escape Char in Strings 1</key>
+		<string>\</string>
+		<key>Escape Char in Strings 2</key>
+		<string></string>
+		
+		<key>Identifier and Keyword Characters</key>
+		 <string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_-</string>
+		
+		<key>Open Line Comments</key>
+		<string>;</string>
+		<key>Open Parameter Lists</key>
+		<string></string>
+		<key>Open Statement Blocks</key>
+		<string>(</string>
+		<key>Open Strings 1</key>
+		<string>&quot;</string>
+		<key>Prefix for Functions</key>
+		<string></string>
+		<key>Prefix for Procedures</key>
+		<string></string>
+		<key>Terminator for Prototypes 1</key>
+		<string></string>
+		<key>Terminator for Prototypes 2</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>
