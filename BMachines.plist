@@ -109,6 +109,8 @@
 	 
 	 <key>BBLMPredefinedNameList</key>
 	 <array>
+		 <string>bfalse</string>
+		 <string>btrue</string>
 		 <string>skip</string>
 		 <string>id</string>
 		 <string>closure</string>
@@ -223,7 +225,13 @@
 		 <string>SET_PREF_USE_RECORD_CONSTRUCTION</string>
 		 <string>HEURISTIC_FUNCTION</string>
 		 <string>CUSTOM_GRAPH_EDGES</string>
+		 <string>CUSTOM_GRAPH_EDGES1</string>
+		 <string>CUSTOM_GRAPH_EDGES2</string>
+		 <string>CUSTOM_GRAPH_EDGES3</string>
 		 <string>CUSTOM_GRAPH_NODES</string>
+		 <string>CUSTOM_GRAPH_NODES1</string>
+		 <string>CUSTOM_GRAPH_NODES2</string>
+		 <string>CUSTOM_GRAPH_NODES3</string>
 		 <string>ANIMATION_IMG</string>
 		 <string>ANIMATION_IMG0</string>
 		 <string>ANIMATION_IMG1</string>
@@ -255,6 +263,7 @@
 		 <string>ANIMATION_STR1</string>
 		 <string>ANIMATION_STR2</string>
 		 <string>ANIMATION_STR3</string>
+		 <string>ASSERT_LTL</string>
 		 <string>CODES_TO_STRING</string>
 		 <string>GOAL</string>
 		 <string>SCOPE</string>

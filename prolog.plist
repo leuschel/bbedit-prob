@@ -145,6 +145,7 @@
 		<string>is</string>
 		<string>is_avl</string>
 		<string>is_list</string>
+		<string>is_ordset</string>
 		<string>keyclumped</string>
 		<string>keyclumps</string>
 		<string>keys_and_values</string>
@@ -217,6 +218,7 @@
 		<string>put_code</string>
 		<string>remove_dups</string>
 		<string>random</string>
+		<string>random_element</string>
 		<string>random_member</string>
 		<string>random_numlist</string>
 		<string>random_permutation</string>
