@@ -185,6 +185,9 @@
 		 <string>father</string>
 		 <string>const</string>
 		 <string>sizet</string>
+		 <string>ceiling</string>
+		 <string>floor</string>
+		 <string>real</string>
 		 <string>SET_PREF_ALLOW_LOCAL_OPERATION_CALLS</string>
 		 <string>SET_PREF_ALLOW_INCOMPLETE_SETUP_CONSTANTS</string>
 		 <string>SET_PREF_CHR</string>
@@ -342,6 +345,9 @@
 		 <string>RABS</string>
 		 <string>RAND</string>
 		 <string>RCOS</string>
+		 <string>REAL</string>
+		 <string>REULER</string>
+		 <string>REXP</string>
 		 <string>RFRACTION</string>
 		 <string>RINTEGER</string>
 		 <string>RLOGe</string>
@@ -353,6 +359,7 @@
 		 <string>RPI</string>
 		 <string>RPOW</string>
 		 <string>RSIGN</string>
+		 <string>RSQRT</string>
 		 <string>RSIN</string>
 		 <string>RTAN</string>
 		 <string>SORT</string>
