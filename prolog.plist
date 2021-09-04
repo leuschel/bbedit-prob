@@ -17,21 +17,30 @@
 <dict>
 	<key>BBEditDocumentType</key>
 	<string>CodelessLanguageModule</string>
+	<key>BBLMLanguageCode</key>
+	<string>Prol</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>Prolog</string>
 	<key>BBLMColorsSyntax</key>
 	<true/>
 	<key>BBLMIsCaseSensitive</key>
 	<true/>
-	 <key>BBLMSupportsTextCompletion</key>
-	 <true/>
 	<key>BBLMKeywordList</key>
 	<array>
+		<string>abolish</string>
+		<string>abort</string>
+		<string>absolute_file_name</string>
 		<string>acyclic_term</string>
+		<string>add_breakpoint</string>
 		<string>all_different</string>
+		<string>all_different_except</string>
 		<string>all_distinct</string>
+		<string>all_distinct_except</string>
+		<string>aggregate</string>
 		<string>append</string>
 		<string>append_length</string>
+		<string>append_queue</string>
 		<string>arg</string>
-		<string>abolish</string>
 		<string>assert</string>
 		<string>asserta</string>
 		<string>assertz</string>
@@ -61,6 +70,9 @@
 		<string>avl_store</string>
 		<string>avl_to_list</string>
 		<string>bagof</string>
+		<string>bb_delete</string>
+		<string>bb_get</string>
+		<string>bb_put</string>
 		<string>between</string>
 		<string>call</string>
 		<string>callable</string>
@@ -82,6 +94,7 @@
 		<string>copy_term</string>
 		<string>correspond</string>
 		<string>create_mutable</string>
+		<string>current_prolog_flag</string>
 		<string>cumlist</string>
 		<string>cyclic_term</string>
 		<string>datime</string>
@@ -133,6 +146,7 @@
 		<string>frozen</string>
 		<string>functor</string>
 		<string>get_atts</string>
+		<string>get_code</string>
 		<string>get_mutable</string>
 		<string>ground</string>
 		<string>group</string>
@@ -162,10 +176,6 @@
 		<string>member</string>
 		<string>memberchk</string>
 		<string>min_member</string>
-		<string>mode</string>
-		<string>:-mode</string>
-		<string>module</string>
-		<string>:-module</string>
 		<string>mutable</string>
 		<string>name</string>
 		<string>nextto</string>
@@ -211,21 +221,44 @@
 		<string>prefix</string>
 		<string>prefix_length</string>
 		<string>print</string>
+		<string>print_message</string>
+		<string>process_create</string>
+		<string>process_id</string>
+		<string>process_release</string>
+		<string>process_wait</string>
+		<string>prolog_flag</string>
+		<string>prolog_load_context</string>
 		<string>proper_length</string>
+		<string>proper_prefix</string>
 		<string>proper_prefix_length</string>
+		<string>proper_segment</string>
+		<string>proper_suffix</string>
 		<string>proper_suffix_length</string>
+		<string>put_assoc</string>
 		<string>put_atts</string>
+		<string>put_byte</string>
+		<string>put_char</string>
 		<string>put_code</string>
+		<string>queue_append</string>
+		<string>queue_cons</string>
+		<string>queue_head</string>
+		<string>queue_last</string>
+		<string>queue_length</string>
+		<string>queue_list</string>
+		<string>queue_member</string>
+		<string>queue_memberchk</string>
+		<string>queue_tail</string>
 		<string>remove_dups</string>
 		<string>random</string>
-		<string>random_element</string>
 		<string>random_member</string>
 		<string>random_numlist</string>
+		<string>random_perm</string>
 		<string>random_permutation</string>
 		<string>random_select</string>
 		<string>random_subseq</string>
 		<string>read</string>
 		<string>read_from_codes</string>
+		<string>read_line</string>
 		<string>read_term</string>
 		<string>read_term_from_codes</string>
 		<string>remove_dups</string>
@@ -237,6 +270,9 @@
 		<string>rotate_list</string>
 		<string>same_length</string>
 		<string>scanlist</string>
+		<string>see</string>
+		<string>seeing</string>
+		<string>seen</string>
 		<string>segment</string>
 		<string>select</string>
 		<string>selectchk</string>
@@ -248,7 +284,10 @@
 		<string>some</string>
 		<string>somechk</string>
 		<string>sort</string>
+		<string>spy</string>
 		<string>statistics</string>
+		<string>stream_position</string>
+		<string>stream_property</string>
 		<string>sub_atom</string>
 		<string>sublist</string>
 		<string>subseq</string>
@@ -257,44 +296,37 @@
 		<string>suffix</string>
 		<string>suffix_length</string>
 		<string>tail</string>
+		<string>tell</string>
+		<string>telling</string>
+		<string>term_expansion</string>
 		<string>term_hash</string>
 		<string>term_variables</string>
 		<string>term_variables_bag</string>
 		<string>term_size</string>
+		<string>throw</string>
 		<string>time_out</string>
+		<string>told</string>
 		<string>transpose</string>
+		<string>trace</string>
+		<string>trimcore</string>
 		<string>true</string>
 		<string>unify_with_occurs_check</string>
+		<string>unknown</string>
 		<string>update_mutable</string>
-		<string>use_module</string>
-		<string>:-use_module</string>
 		<string>var</string>
 		<string>variant</string>
+		<string>varnumbers</string>
+		<string>variant</string>
+		<string>verify_attributes</string>
 		<string>when</string>
-		<string>write</string>
 		<string>with_output_to_codes</string>
+		<string>write</string>
+		<string>write_canonical</string>
 		<string>write_term</string>
 		<string>write_term_to_codes</string>
 		<string>write_to_codes</string>
-		<string>:-</string>
-		<string>--&gt;</string>
-		<string>-&gt;</string>
-		<string>\+</string>
-		<string>\==</string>
-		<string>\=</string>
-		<string>==</string>
-		<string>=..</string>
-		<string>!</string>
-		<string>=</string>
-		<string>;</string>
-		<string>[]</string>
-		<string>=[]</string>
-		<string>[]=</string>
-		<string>_</string>
-		<string>+</string>
-		<string>-</string>
-		<string>mod</string>
-		<string>[A-Z_][a-zA-Z0-9_]*</string>
+		<string>writeq</string>
+		<string>zip</string>
 	</array>
 	 
 	 <key>BBLMPredefinedNameList</key>
@@ -305,6 +337,7 @@
 		<string>assert_pre</string>
 		<string>begin_tests</string>
 		<string>block</string>
+		<string>:-block</string>
 		<string>chr_constraint</string>
 		<string>chr_option</string>
 		<string>discontiguous</string>
@@ -312,18 +345,21 @@
 		<string>:-dynamic</string>
 		<string>end_tests</string>
 		<string>meta_predicate</string>
+		<string>:-meta_predicate</string>
+		<string>mode</string>
+		<string>:-mode</string>
+		<string>module</string>
+		<string>:-module</string>
 		<string>multifile</string>
+		<string>:-multifile</string>
 		<string>public</string>
 		<string>:-public</string>
+		<string>use_module</string>
+		<string>:-use_module</string>
 		<string>volatile</string>
-
+		<string>:-volatile</string>
 	 </array>
-	<key>BBLMLanguageCode</key>
-	<string>Prol</string>
-	<key>BBLMLanguageDisplayName</key>
-	<string>Prolog</string>
-	<key>BBLMScansFunctions</key>
-	<true/>
+	 
 	<key>BBLMSuffixMap</key>
 	<array>
 		<dict>
@@ -351,10 +387,27 @@
 			<true/>
 		</dict>
 	</array>
-	 <key>BBLMCommentLineDefault</key>
-	 <string>%</string>
+	<key>BBLMPreferredFilenameExtension</key>
+	<string>pl</string>
+	<key>BBLMSupportsTextCompletion</key>
+	<true/>
+	<key>BBLMCanSpellCheckCodeRuns</key>
+	<false/>
+	<key>BBLMCommentLineDefault</key>
+	<string>%</string>
+	<key>BBLMCommentPrefixDefault</key>
+	<string>/*</string>
+	<key>BBLMCommentSuffixDefault</key>
+	<string>*/</string>
+	<key>BBLMScansFunctions</key>
+	<true/>
 	<key>Language Features</key>
 	<dict>
+		<key>Identifier and Keyword Character Class</key>
+		<string>A-Za-z0-9_</string>
+		
+		
+		
 		<key>Close Block Comments</key>
 		<string>*/</string>
 		<key>Close Parameter Lists</key>
@@ -372,9 +425,7 @@
 		<key>Escape Char in Strings 1</key>
 		<string>\</string>
 		<key>Escape Char in Strings 2</key>
-		<string></string>
-		<key>Identifier and Keyword Characters</key>
-		<string>_abcdefghijklmnopqrstuvwxyz:-=-!\&gt;;[]+</string>
+		<string>\</string>
 		<key>Open Block Comments</key>
 		<string>/*</string>
 		<key>Open Line Comments</key>
@@ -387,14 +438,6 @@
 		<string>&quot;</string>
 		<key>Open Strings 2</key>
 		<string>&apos;</string>
-		<key>Prefix for Functions</key>
-		<string>block</string>
-		<key>Prefix for Procedures</key>
-		<string>mode</string>
-		<key>Terminator for Prototypes 1</key>
-		<string></string>
-		<key>Terminator for Prototypes 2</key>
-		<string></string>
 	</dict>
 </dict>
 </plist>
