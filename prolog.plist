@@ -32,11 +32,13 @@
 		<string>absolute_file_name</string>
 		<string>acyclic_term</string>
 		<string>add_breakpoint</string>
+		<string>add_to_heap</string>
 		<string>all_different</string>
 		<string>all_different_except</string>
 		<string>all_distinct</string>
 		<string>all_distinct_except</string>
 		<string>aggregate</string>
+		<string>aggregate_all</string>
 		<string>append</string>
 		<string>append_length</string>
 		<string>append_queue</string>
@@ -44,6 +46,7 @@
 		<string>assert</string>
 		<string>asserta</string>
 		<string>assertz</string>
+		<string>assoc_to_list</string>
 		<string>atom</string>
 		<string>atom_chars</string>
 		<string>atom_codes</string>
@@ -51,6 +54,7 @@
 		<string>atom_concat</string>
 		<string>atom_length</string>
 		<string>atomic</string>
+		<string>atts_subset</string>
 		<string>avl_change</string>
 		<string>avl_delete</string>
 		<string>avl_del_max</string>
@@ -69,6 +73,24 @@
 		<string>avl_size</string>
 		<string>avl_store</string>
 		<string>avl_to_list</string>
+		<string>bag_add_element</string>
+		<string>bag_add_element</string>
+		<string>bag_del_element</string>
+		<string>bag_del_element</string>
+		<string>bag_intersect</string>
+		<string>bag_intersection</string>
+		<string>bag_intersection</string>
+		<string>bag_max</string>
+		<string>bag_max</string>
+		<string>bag_min</string>
+		<string>bag_min</string>
+		<string>bag_subtract</string>
+		<string>bag_to_list</string>
+		<string>bag_to_ord_set</string>
+		<string>bag_to_set</string>
+		<string>bag_to_set</string>
+		<string>bag_union</string>
+		<string>bag_union</string>
 		<string>bagof</string>
 		<string>bb_delete</string>
 		<string>bb_get</string>
@@ -81,12 +103,15 @@
 		<string>call_residue_vars</string>
 		<string>catch</string>
 		<string>char_code</string>
+		<string>checkbag</string>
 		<string>clause</string>
 		<string>close</string>
+		<string>close_all_streams</string>
 		<string>clumped</string>
 		<string>clumps</string>
 		<string>compare</string>
 		<string>compound</string>
+		<string>contains_term</string>
 		<string>contains_var</string>
 		<string>convlist</string>
 		<string>cons</string>
@@ -94,23 +119,37 @@
 		<string>copy_term</string>
 		<string>correspond</string>
 		<string>create_mutable</string>
+		<string>current_directory</string>
 		<string>current_prolog_flag</string>
 		<string>cumlist</string>
 		<string>cyclic_term</string>
 		<string>datime</string>
 		<string>db_reference</string>
 		<string>delete</string>
+		<string>delete_directory</string>
+		<string>delete_file</string>
+		<string>delete_from_heap</string>
 		<string>dif</string>
 		<string>directory_exists</string>
 		<string>directory_member_of_directory</string>
 		<string>directory_members_of_directory</string>
+		<string>directory_must_exist</string>
+		<string>directory_property</string>
+		<string>domain</string>
+		<string>element</string>
 		<string>elif</string>
 		<string>:-elif</string>
 		<string>else</string>
 		<string>else.</string>
 		<string>:-else</string>
 		<string>:-else.</string>
+		<string>empty_assoc</string>
 		<string>empty_avl</string>
+		<string>empty_bag</string>
+		<string>empty_fdset</string>
+		<string>empty_heap</string>
+		<string>empty_interval</string>
+		<string>empty_queue</string>
 		<string>endif</string>
 		<string>endif.</string>
 		<string>:-endif</string>
@@ -120,6 +159,13 @@
 		<string>environ</string>
 		<string>exclude</string>
 		<string>fail</string>
+		<string>fast_buf_read</string>
+		<string>fast_buf_write</string>
+		<string>fast_read</string>
+		<string>fast_write</string>
+		<string>fd_batch</string>
+		<string>fd_global</string>
+		<string>fd_flag</string>
 		<string>fd_closure</string>
 		<string>fd_degree</string>
 		<string>fd_dom</string>
@@ -130,54 +176,133 @@
 		<string>fd_size</string>
 		<string>fd_statistics</string>
 		<string>fd_var</string>
-		<string>fdset_intersect</string>
-		<string>fdset_member</string>
+		<string>fdset_interval</string>
+		<string>fdset_singleton</string>
+		<string>fdset_min</string>
+		<string>fdset_max</string>
 		<string>fdset_parts</string>
+		<string>fdset_size</string>
+		<string>fdset_to_list</string>
+		<string>range_to_fdset</string>
+		<string>fdset_to_range</string>
+		<string>fdset_add_element</string>
+		<string>fdset_del_element</string>
+		<string>fdset_disjoint</string>
+		<string>fdset_intersect</string>
+		<string>fdset_intersection</string>
+		<string>fdset_member</string>
+		<string>fdset_eq</string>
+		<string>fdset_subset</string>
+		<string>fdset_subtract</string>
+		<string>fdset_union</string>
+		<string>fdset_complement</string>
 		<string>file_exists</string>
 		<string>file_member_of_directory</string>
 		<string>file_members_of_directory</string>
+		<string>file_must_exist</string>
 		<string>file_property</string>
+		<string>file_search_path</string>
 		<string>findall</string>
 		<string>float</string>
+		<string>flush_output</string>
 		<string>forall</string>
+		<string>foreach</string>
 		<string>format</string>
 		<string>format_to_codes</string>
 		<string>free_of_var</string>
+		<string>free_of_term</string>
+		<string>free_variables</string>
 		<string>frozen</string>
 		<string>functor</string>
+		<string>gen_assoc</string>
+		<string>gen_nat</string>
+		<string>gen_assoc</string>
+		<string>get_assoc</string>
 		<string>get_atts</string>
 		<string>get_code</string>
+		<string>get_from_heap</string>
 		<string>get_mutable</string>
+		<string>get_next_assoc</string>
+		<string>get_prev_assoc</string>
+		<string>getrand</string>
 		<string>ground</string>
 		<string>group</string>
 		<string>head</string>
+		<string>heap_size</string>
+		<string>heap_to_list</string>
 		<string>if</string>
 		<string>:-if</string>
 		<string>include</string>
 		<string>:-include</string>
+		<string>indomain</string>
 		<string>integer</string>
 		<string>is</string>
+		<string>is_assoc</string>
 		<string>is_avl</string>
+		<string>is_bag</string>
+		<string>is_fdset</string>
+		<string>is_heap</string>
+		<string>is_json_term</string>
 		<string>is_list</string>
+		<string>is_mutdict</string>
 		<string>is_ordset</string>
+		<string>is_process</string>
+		<string>is_queue</string>
+		<string>json_read</string>
+		<string>json_write</string>
 		<string>keyclumped</string>
 		<string>keyclumps</string>
+		<string>keymerge</string>
 		<string>keys_and_values</string>
 		<string>keysort</string>
 		<string>labeling</string>
 		<string>last</string>
 		<string>length</string>
+		<string>lex_chain</string>
 		<string>library</string>
+		<string>library_directory</string>
+		<string>list_to_assoc</string>
 		<string>list_to_avl</string>
+		<string>list_to_bag</string>
+		<string>list_to_fdset</string>
+		<string>list_to_heap</string>
+		<string>list_to_mutdict</string>
 		<string>list_to_ord_set</string>
+		<string>list_queue</string>
+		<string>make_directory</string>
+		<string>make_sub_bag</string>
+		<string>mapbag</string>
 		<string>maplist</string>
+		<string>map_assoc</string>
+		<string>map_list_queue</string>
 		<string>map_product</string>
+		<string>map_queue</string>
+		<string>map_queue_list</string>
+		<string>max_assoc</string>
 		<string>max_member</string>
+		<string>max_of_heap</string>
+		<string>maybe</string>
 		<string>member</string>
 		<string>memberchk</string>
+		<string>merge</string>
+		<string>min_assoc</string>
 		<string>min_member</string>
+		<string>min_of_heap</string>
 		<string>mutable</string>
+		<string>mutdict_empty</string>
+		<string>mutdict_size</string>
+		<string>mutdict_gen</string>
+		<string>mutdict_get</string>
+		<string>mutdict_put</string>
+		<string>mutdict_update</string>
+		<string>mutdict_delete</string>
+		<string>mutdict_clear</string>
+		<string>mutdict_keys</string>
+		<string>mutdict_values</string>
+		<string>mutdict_items</string>
+		<string>mutdict_append</string>
 		<string>name</string>
+		<string>new_mutdict</string>
 		<string>nextto</string>
 		<string>nl</string>
 		<string>nth</string>
@@ -185,10 +310,14 @@
 		<string>nth1</string>
 		<string>nonmember</string>
 		<string>nonvar</string>
+		<string>now</string>
 		<string>number</string>
 		<string>number_chars</string>
 		<string>number_codes</string>
 		<string>numbervars</string>
+		<string>numlist</string>
+		<string>occurrences_of_term</string>
+		<string>occurrences_of_var</string>
 		<string>on_exception</string>
 		<string>op</string>
 		<string>once</string>
@@ -201,6 +330,7 @@
 		<string>ord_disjoint_union</string>
 		<string>ord_intersection</string>
 		<string>ord_intersect</string>
+		<string>ord_list_to_assoc</string>
 		<string>ord_list_to_avl</string>
 		<string>ord_member</string>
 		<string>ord_nonmember</string>
@@ -210,20 +340,28 @@
 		<string>ord_subtract</string>
 		<string>ord_symdiff</string>
 		<string>ord_union</string>
+		<string>ordset_order</string>
 		<string>ordered</string>
 		<string>otherwise</string>
 		<string>partition</string>
 		<string>perm</string>
 		<string>perm2</string>
 		<string>permutation</string>
+		<string>portray</string>
+		<string>portray_assoc</string>
 		<string>portray_avl</string>
+		<string>portray_bag</string>
 		<string>portray_clause</string>
+		<string>portray_heap</string>
+		<string>portray_message</string>
+		<string>portray_queue</string>
 		<string>prefix</string>
 		<string>prefix_length</string>
 		<string>print</string>
 		<string>print_message</string>
 		<string>process_create</string>
 		<string>process_id</string>
+		<string>process_kill</string>
 		<string>process_release</string>
 		<string>process_wait</string>
 		<string>prolog_flag</string>
@@ -262,13 +400,19 @@
 		<string>read_term</string>
 		<string>read_term_from_codes</string>
 		<string>remove_dups</string>
+		<string>rename_file</string>
+		<string>rename_directory</string>
 		<string>repeat</string>
 		<string>retract</string>
 		<string>retractall</string>
 		<string>rev</string>
 		<string>reverse</string>
 		<string>rotate_list</string>
+		<string>runtime_entry</string>
+		<string>same_functor</string>
 		<string>same_length</string>
+		<string>samkeysort</string>
+		<string>samsort</string>
 		<string>scanlist</string>
 		<string>see</string>
 		<string>seeing</string>
@@ -279,10 +423,22 @@
 		<string>select_max</string>
 		<string>select_min</string>
 		<string>setof</string>
+		<string>setrand</string>
 		<string>shorter_list</string>
 		<string>simple</string>
+		<string>singleton_queue</string>
+		<string>sleep</string>
+		<string>socket_client_open</string>
+		<string>socket_server_open</string>
+		<string>socket_server_close</string>
+		<string>socket_server_accept</string>
+		<string>socket_select</string>
 		<string>some</string>
+		<string>somebag</string>
+		<string>some_queue</string>
 		<string>somechk</string>
+		<string>somechkbag</string>
+		<string>somechk_queue</string>
 		<string>sort</string>
 		<string>spy</string>
 		<string>statistics</string>
@@ -291,18 +447,35 @@
 		<string>sub_atom</string>
 		<string>sublist</string>
 		<string>subseq</string>
+		<string>subsumes</string>
 		<string>subsumes_term</string>
+		<string>sub_term</string>
 		<string>sumlist</string>
 		<string>suffix</string>
 		<string>suffix_length</string>
+		<string>system</string>
 		<string>tail</string>
+		<string>tcl_new</string>
+		<string>tcl_delete</string>
+		<string>tcl_eval</string>
+		<string>tcl_event</string>
+		<string>tk_new</string>
+		<string>tk_main_window</string>
+		<string>tk_do_one_event</string>
+		<string>tk_next_event</string>
+		<string>tk_main_loop</string>
 		<string>tell</string>
 		<string>telling</string>
+		<string>term_depth</string>
 		<string>term_expansion</string>
 		<string>term_hash</string>
+		<string>term_order</string>
+		<string>term_subsumer</string>
 		<string>term_variables</string>
 		<string>term_variables_bag</string>
+		<string>term_variables_set</string>
 		<string>term_size</string>
+		<string>test_sub_bag</string>
 		<string>throw</string>
 		<string>time_out</string>
 		<string>told</string>
@@ -312,20 +485,26 @@
 		<string>true</string>
 		<string>unify_with_occurs_check</string>
 		<string>unknown</string>
+		<string>unknown_predicate_handler</string>
 		<string>update_mutable</string>
 		<string>var</string>
 		<string>variant</string>
 		<string>varnumbers</string>
 		<string>variant</string>
 		<string>verify_attributes</string>
+		<string>wait</string>
 		<string>when</string>
 		<string>with_output_to_codes</string>
+		<string>working_directory</string>
 		<string>write</string>
 		<string>write_canonical</string>
 		<string>write_term</string>
 		<string>write_term_to_codes</string>
 		<string>write_to_codes</string>
 		<string>writeq</string>
+		<string>xml_parse</string>
+		<string>xml_subterm</string>
+		<string>xml_pp</string>
 		<string>zip</string>
 	</array>
 	 
