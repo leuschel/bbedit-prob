@@ -292,6 +292,7 @@
 		 <string>STRING_IS_NUMBER</string>
 		 <string>STRING_CONTAINS_STRING</string>
 		 <string>STRING_EQUAL_CASE_INSENSITIVE</string>
+		 <string>STRING_REPLACE</string>
 		 <string>DEC_STRING_TO_INT</string>
 		 <string>STRING_TO_ENUM</string>
 		 <string>STRING_IS_NUMBER</string>
@@ -319,6 +320,7 @@
 		 <string>SIN</string>
 		 <string>TAN</string>
 		 <string>SQRT</string>
+		 <string>FACTORIAL</string>
 		 <string>BNOT</string>
 		 <string>BAND</string>
 		 <string>BOR</string>
@@ -332,19 +334,26 @@
 		 <string>random_ordering</string>
 		 <string>random_permutation</string>
 		 <string>random_numset</string>
+		 <string>READ_FILE_AS_STRING</string>
 		 <string>READ_FILE_AS_STRINGS</string>
 		 <string>READ_LINE</string>
 		 <string>CHOOSE</string>
 		 <string>MU</string>
+		 <string>REGEX_IMATCH</string>
+		 <string>REGEX_IREPLACE</string>
+		 <string>REGEX_ISEARCH</string>
+		 <string>REGEX_ISEARCH_ALL</string>
+		 <string>REGEX_ISEARCH_STR</string>
 		 <string>REGEX_MATCH</string>
 		 <string>REGEX_REPLACE</string>
-		 <string>REGEX_SEARCH_STR</string>
 		 <string>REGEX_SEARCH</string>
 		 <string>REGEX_SEARCH_ALL</string>
+		 <string>REGEX_SEARCH_STR</string>
 		 <string>IS_REGEX</string>
 		 <string>RABS</string>
 		 <string>RAND</string>
 		 <string>RCOS</string>
+		 <string>RCOT</string>
 		 <string>REAL</string>
 		 <string>REULER</string>
 		 <string>REXP</string>
@@ -355,12 +364,14 @@
 		 <string>RMAX</string>
 		 <string>RMIN</string>
 		 <string>RNORMAL</string>
+		 <string>RONE</string>
 		 <string>ROUND</string>
 		 <string>RPI</string>
 		 <string>RPOW</string>
 		 <string>RSIGN</string>
 		 <string>RSQRT</string>
 		 <string>RSIN</string>
+		 <string>RZERO</string>
 		 <string>RTAN</string>
 		 <string>SORT</string>
 		 <string>SQUASH</string>
@@ -374,6 +385,17 @@
 		 <string>READ_XML_FROM_STRING</string>
 		 <string>WRITE_XML</string>
 		 <string>WRITE_XML_TO_STRING</string>
+		 <string>VISB_JSON_FILE</string>
+		 <string>DIRECTORIES</string>
+		 <string>DIRECTORY_EXISTS</string>
+		 <string>DIRECTORY_PROPERTY</string>
+		 <string>DIRECTORY_PROPERTY_VALUE</string>
+		 <string>FILE_EXISTS</string>
+		 <string>FILE_PROPERTY</string>
+		 <string>FILE_PROPERTY_VALUE</string>
+		 <string>FILES</string>
+		 <string>FULL_DIRECTORIES</string>
+		 <string>FULL_FILES</string>
 	 </array>
 	 
 	 <key>BBLMLanguageCode</key>
