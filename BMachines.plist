@@ -39,6 +39,7 @@
 		 <string>EXTENDS</string>
 		 <string>PROMOTES</string>
 		 <string>SETS</string>
+		 <string>FREETYPES</string>
 		 <string>INITIALISATION</string>
 		 <string>OPERATIONS</string>
 		 <string>LOCAL_OPERATIONS</string>
@@ -194,15 +195,18 @@
 		 <string>SET_PREF_CLPFD</string>
 		 <string>SET_PREF_COMPRESSION</string>
 		 <string>SET_PREF_CSE</string>
+		 <string>SET_PREF_DATA_VALIDATION</string>
 		 <string>SET_PREF_DEFAULT_SETSIZE</string>
 		 <string>SET_PREF_DOUBLE_EVALUATION</string>
 		 <string>SET_PREF_EXPAND_FORALL_UPTO</string>
+		 <string>SET_PREF_IGNORE_PRJ_TYPES</string>
 		 <string>SET_PREF_INVARIANT_CHECKING</string>
 		 <string>SET_PREF_KODKOD</string>
 		 <string>SET_PREF_KODKOD_ONLY_FULL</string>
 		 <string>SET_PREF_KODKOD_MAX_NR_SOLS</string>
 		 <string>SET_PREF_KODKOD_SYMMETRY</string>
 		 <string>SET_PREF_KODKOD_SAT_SOLVER</string>
+		 <string>SET_PREF_LIFT_EXISTS</string>
 		 <string>SET_PREF_MAXINT</string>
 		 <string>SET_PREF_MAX_DISPLAY_SET</string>
 		 <string>SET_PREF_MAX_INITIALISATIONS</string>
@@ -210,11 +214,17 @@
 		 <string>SET_PREF_MEMO</string>
 		 <string>SET_PREF_MININT</string>
 		 <string>SET_PREF_OPTIMIZE_AST</string>
+		 <string>SET_PREF_OPERATION_REUSE</string>
 		 <string>SET_PREF_PGE</string>
+		 <string>SET_PREF_PERFORMANCE_INFO</string>
+		 <string>SET_PREF_PP_SEQUENCES</string>
 		 <string>SET_PREF_PROOF_INFO</string>
+		 <string>SET_PREF_RAISE_ABORT_IMMEDIATELY</string>
 		 <string>SET_PREF_RANDOMISE_ENUMERATION_ORDER</string>
 		 <string>SET_PREF_SMT</string>
 		 <string>SET_PREF_SMT_SUPPORTED_INTERPRETER</string>
+		 <string>SET_PREF_SOLVER_FOR_PROPERTIES</string>
+		 <string>SET_PREF_SOLVER_STRENGTH</string>
 		 <string>SET_PREF_STATIC_ORDERING</string>
 		 <string>SET_PREF_STATIC_SYMMETRY_DETECTION</string>
 		 <string>SET_PREF_SYMBOLIC</string>
@@ -227,14 +237,19 @@
 		 <string>SET_PREF_TYPE_CHECK_DEFINITIONS</string>
 		 <string>SET_PREF_USE_RECORD_CONSTRUCTION</string>
 		 <string>HEURISTIC_FUNCTION</string>
+		 <string>CUSTOM_GRAPH</string>
 		 <string>CUSTOM_GRAPH_EDGES</string>
+		 <string>CUSTOM_GRAPH_EDGES0</string>
 		 <string>CUSTOM_GRAPH_EDGES1</string>
 		 <string>CUSTOM_GRAPH_EDGES2</string>
 		 <string>CUSTOM_GRAPH_EDGES3</string>
+		 <string>CUSTOM_GRAPH_EDGES4</string>
 		 <string>CUSTOM_GRAPH_NODES</string>
+		 <string>CUSTOM_GRAPH_NODES0</string>
 		 <string>CUSTOM_GRAPH_NODES1</string>
 		 <string>CUSTOM_GRAPH_NODES2</string>
 		 <string>CUSTOM_GRAPH_NODES3</string>
+		 <string>CUSTOM_GRAPH_NODES4</string>
 		 <string>ANIMATION_IMG</string>
 		 <string>ANIMATION_IMG0</string>
 		 <string>ANIMATION_IMG1</string>
@@ -351,10 +366,13 @@
 		 <string>REGEX_SEARCH_STR</string>
 		 <string>IS_REGEX</string>
 		 <string>RABS</string>
+		 <string>RADIANS</string>
+		 <string>DEGREE</string>
 		 <string>RAND</string>
 		 <string>RCOS</string>
 		 <string>RCOT</string>
 		 <string>REAL</string>
+		 <string>REAL_TO_DEC_STRING</string>
 		 <string>REULER</string>
 		 <string>REXP</string>
 		 <string>RFRACTION</string>
@@ -362,7 +380,9 @@
 		 <string>RLOGe</string>
 		 <string>RLOG</string>
 		 <string>RMAX</string>
+		 <string>RMAXIMUM</string>
 		 <string>RMIN</string>
+		 <string>RMINIMUM</string>
 		 <string>RNORMAL</string>
 		 <string>RONE</string>
 		 <string>ROUND</string>
@@ -386,6 +406,33 @@
 		 <string>WRITE_XML</string>
 		 <string>WRITE_XML_TO_STRING</string>
 		 <string>VISB_JSON_FILE</string>
+		 <string>VISB_SVG_BOX</string>
+		 <string>VISB_SVG_CONTENTS</string>
+		 <string>VISB_SVG_FILE</string>
+		 <string>VISB_SVG_OBJECTS</string>
+		 <string>VISB_SVG_OBJECTS0</string>
+		 <string>VISB_SVG_OBJECTS1</string>
+		 <string>VISB_SVG_OBJECTS2</string>
+		 <string>VISB_SVG_OBJECTS3</string>
+		 <string>VISB_SVG_OBJECTS4</string>
+		 <string>VISB_SVG_OBJECTS5</string>
+		 <string>VISB_SVG_OBJECTS6</string>
+		 <string>VISB_SVG_UPDATES</string>
+		 <string>VISB_SVG_UPDATES0</string>
+		 <string>VISB_SVG_UPDATES1</string>
+		 <string>VISB_SVG_UPDATES2</string>
+		 <string>VISB_SVG_UPDATES3</string>
+		 <string>VISB_SVG_UPDATES4</string>
+		 <string>VISB_SVG_UPDATES5</string>
+		 <string>VISB_SVG_UPDATES6</string>
+		 <string>VISB_SVG_HOVERS</string>
+		 <string>VISB_SVG_HOVERS0</string>
+		 <string>VISB_SVG_HOVERS1</string>
+		 <string>VISB_SVG_HOVERS2</string>
+		 <string>VISB_SVG_HOVERS3</string>
+		 <string>VISB_SVG_HOVERS4</string>
+		 <string>VISB_SVG_HOVERS5</string>
+		 <string>VISB_SVG_HOVERS6</string>
 		 <string>DIRECTORIES</string>
 		 <string>DIRECTORY_EXISTS</string>
 		 <string>DIRECTORY_PROPERTY</string>
@@ -396,6 +443,8 @@
 		 <string>FILES</string>
 		 <string>FULL_DIRECTORIES</string>
 		 <string>FULL_FILES</string>
+		 <string>MAXIMIZE_EXPR></string>
+		 <string>MINIMIZE_EXPR></string>
 	 </array>
 	 
 	 <key>BBLMLanguageCode</key>
