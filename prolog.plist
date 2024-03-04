@@ -33,12 +33,14 @@
 		<string>acyclic_term</string>
 		<string>add_breakpoint</string>
 		<string>add_to_heap</string>
-		<string>all_different</string>
-		<string>all_different_except</string>
-		<string>all_distinct</string>
-		<string>all_distinct_except</string>
 		<string>aggregate</string>
 		<string>aggregate_all</string>
+		<string>all_different</string>
+		<string>all_different_except_0</string>
+		<string>all_distinct</string>
+		<string>all_distinct_except_0</string>
+		<string>all_equal</string>
+		<string>all_equal_reif</string>
 		<string>append</string>
 		<string>append_length</string>
 		<string>append_queue</string>
@@ -55,6 +57,8 @@
 		<string>atom_length</string>
 		<string>atomic</string>
 		<string>atts_subset</string>
+		<string>attributes</string>
+		<string>:-attributes</string>
 		<string>avl_change</string>
 		<string>avl_delete</string>
 		<string>avl_del_max</string>
@@ -95,6 +99,7 @@
 		<string>bb_delete</string>
 		<string>bb_get</string>
 		<string>bb_put</string>
+		<string>bb_update</string>
 		<string>between</string>
 		<string>call</string>
 		<string>callable</string>
@@ -125,6 +130,7 @@
 		<string>cyclic_term</string>
 		<string>datime</string>
 		<string>db_reference</string>
+		<string>decreasing_prefix</string>
 		<string>delete</string>
 		<string>delete_directory</string>
 		<string>delete_file</string>
@@ -204,6 +210,7 @@
 		<string>file_search_path</string>
 		<string>findall</string>
 		<string>float</string>
+		<string>floor</string>
 		<string>flush_output</string>
 		<string>forall</string>
 		<string>foreach</string>
@@ -219,6 +226,8 @@
 		<string>gen_assoc</string>
 		<string>get_assoc</string>
 		<string>get_atts</string>
+		<string>get_byte</string>
+		<string>get_char</string>
 		<string>get_code</string>
 		<string>get_from_heap</string>
 		<string>get_mutable</string>
@@ -232,8 +241,10 @@
 		<string>heap_to_list</string>
 		<string>if</string>
 		<string>:-if</string>
+		<string>illarg</string>
 		<string>include</string>
 		<string>:-include</string>
+		<string>increasing_prefix</string>
 		<string>indomain</string>
 		<string>integer</string>
 		<string>is</string>
@@ -244,6 +255,7 @@
 		<string>is_heap</string>
 		<string>is_json_term</string>
 		<string>is_list</string>
+		<string>is_mutarray</string>
 		<string>is_mutdict</string>
 		<string>is_ordset</string>
 		<string>is_process</string>
@@ -266,6 +278,7 @@
 		<string>list_to_bag</string>
 		<string>list_to_fdset</string>
 		<string>list_to_heap</string>
+		<string>list_to_mutarray</string>
 		<string>list_to_mutdict</string>
 		<string>list_to_ord_set</string>
 		<string>list_queue</string>
@@ -288,7 +301,17 @@
 		<string>min_assoc</string>
 		<string>min_member</string>
 		<string>min_of_heap</string>
+		<string>must_be</string>
 		<string>mutable</string>
+		<string>mutarray_length</string>
+		<string>mutarray_set_length</string>
+		<string>mutarray_to_list</string>
+		<string>mutarray_last</string>
+		<string>mutarray_gen</string>
+		<string>mutarray_get</string>
+		<string>mutarray_put</string>
+		<string>mutarray_update</string>
+		<string>mutarray_append</string>
 		<string>mutdict_empty</string>
 		<string>mutdict_size</string>
 		<string>mutdict_gen</string>
@@ -302,6 +325,7 @@
 		<string>mutdict_items</string>
 		<string>mutdict_append</string>
 		<string>name</string>
+		<string>new_mutarray</string>
 		<string>new_mutdict</string>
 		<string>nextto</string>
 		<string>nl</string>
@@ -408,6 +432,7 @@
 		<string>rev</string>
 		<string>reverse</string>
 		<string>rotate_list</string>
+		<string>round</string>
 		<string>runtime_entry</string>
 		<string>same_functor</string>
 		<string>same_length</string>
@@ -447,6 +472,8 @@
 		<string>sub_atom</string>
 		<string>sublist</string>
 		<string>subseq</string>
+		<string>subseq0</string>
+		<string>subseq1</string>
 		<string>subsumes</string>
 		<string>subsumes_term</string>
 		<string>sub_term</string>
@@ -454,6 +481,8 @@
 		<string>suffix</string>
 		<string>suffix_length</string>
 		<string>system</string>
+		<string>symmetric_all_different</string>
+		<string>symmetric_all_distinct</string>
 		<string>tail</string>
 		<string>tcl_new</string>
 		<string>tcl_delete</string>
@@ -523,6 +552,8 @@
 		<string>dynamic</string>
 		<string>:-dynamic</string>
 		<string>end_tests</string>
+		<string>expects_dialect</string>
+		<string>:-expects_dialect</string>
 		<string>meta_predicate</string>
 		<string>:-meta_predicate</string>
 		<string>mode</string>
