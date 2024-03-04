@@ -57,12 +57,21 @@
 		 <string>RECURSIVE</string>
 		 <string>TRUE</string>
 		 <string>FALSE</string>
+		 <string>STRING</string>
 		 <string>\A</string>
 		 <string>\E</string>
 		 <string>/\</string>
 		 <string>\/</string>
 		 <string>=&gt;</string>
+		 <string>&gt;&gt;</string>
 		 <string>&lt;&gt;</string>
+		 <string>&lt;&lt;</string>
+		 <string>@@</string>
+		 <string>ALIAS</string>
+		 <string>CHECK_DEADLOCK</string>
+		 <string>SPECIFICATION</string>
+		 <string>INVARIANT</string>
+		 <string>PROPERTIES</string>
 	 </array>
 	 <key>BBLMPredefinedNameList</key>
 	 <array>
