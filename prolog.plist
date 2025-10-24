@@ -448,6 +448,7 @@
 		<string>select_max</string>
 		<string>select_min</string>
 		<string>setof</string>
+		<string>set_prolog_flag</string>
 		<string>setrand</string>
 		<string>shorter_list</string>
 		<string>simple</string>
