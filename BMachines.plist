@@ -6,8 +6,8 @@
 	BBEdit codeless language module for B Machine source files.
 	
 	Built from the BBEedit Template
-	by Michael Leuschel (http://www.stups.uni-duesseldorf.de/~leuschel/)
-	Date of this version: July 2019
+	by Michael Leuschel (https://www.stups.hhu.de)
+	Date of first version: July 2019
 	
 	Requires BBEdit 8.0 or higher. To install, copy the file to:
 		~/Library/Application Support/BBEdit/Language Modules/
@@ -190,6 +190,8 @@
 		 <string>ceiling</string>
 		 <string>floor</string>
 		 <string>real</string>
+		 <string>DESCRIPTION_FOR_SETUP_CONSTANTS</string>
+		 <string>DESCRIPTION_FOR_INITIALISATION</string>
 		 <string>SET_PREF_ALLOW_COMPLEX_LETS</string>
 		 <string>SET_PREF_ALLOW_LOCAL_OPERATION_CALLS</string>
 		 <string>SET_PREF_ALLOW_INCOMPLETE_SETUP_CONSTANTS</string>
@@ -241,6 +243,7 @@
 		 <string>SET_PREF_TRACE_INFO</string>
 		 <string>SET_PREF_TRY_FIND_ABORT</string>
 		 <string>SET_PREF_TYPE_CHECK_DEFINITIONS</string>
+		 <string>SET_PREF_USE_IGNORE_PRAGMAS</string>
 		 <string>SET_PREF_USE_RECORD_CONSTRUCTION</string>
 		 <string>HEURISTIC_FUNCTION</string>
 		 <string>CUSTOM_GRAPH</string>
@@ -287,8 +290,10 @@
 		 <string>ANIMATION_STR1</string>
 		 <string>ANIMATION_STR2</string>
 		 <string>ANIMATION_STR3</string>
+		 <string>ASSERT_CTL</string>
 		 <string>ASSERT_LTL</string>
 		 <string>CODES_TO_STRING</string>
+		 <string>CSP_GUIDE_FILE</string>
 		 <string>GOAL</string>
 		 <string>SCOPE</string>
 		 <string>DO_NOT_ENUMERATE</string>
