@@ -26,11 +26,14 @@
 	 <true/>
 	 <key>BBLMKeywordList</key>
 	 <array>
+		 <string>abstract</string>
 		 <string>and</string>
 		 <string>asm</string>
 		 <string>Boolean</string>
 		 <string>case</string>
+		 <string>Char</string>
 		 <string>choose</string>
+		 <string>Complex</string>
 		 <string>controlled</string>
 		 <string>default</string>
 		 <string>definitions</string>
@@ -41,29 +44,36 @@
 		 <string>endpar</string>
 		 <string>endswitch</string>
 		 <string>enum</string>
+		 <string>export</string>
 		 <string>function</string>
 		 <string>if</string>
+		 <string>iff</string>
 		 <string>import</string>
 		 <string>implies</string>
 		 <string>in</string>
 		 <string>init</string>
 		 <string>Integer</string>
 		 <string>invariant</string>
+		 <string>macro</string>
 		 <string>main</string>
+		 <string>module</string>
 		 <string>monitored</string>
 		 <string>Natural</string>
 		 <string>not</string>
 		 <string>or</string>
 		 <string>over</string>
 		 <string>par</string>
+		 <string>Real</string>
 		 <string>rule</string>
 		 <string>Seq</string>
 		 <string>signature</string>
 		 <string>static</string>
+		 <string>String</string>
 		 <string>switch</string>
 		 <string>with</string>
          <string>endif</string>
          <string>then</string>
+		 <string>xor</string>
 	 </array>
 	 
 	 <key>BBLMPredefinedNameList</key>
