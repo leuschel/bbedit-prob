@@ -427,6 +427,12 @@
 		 <string>VISB_JSON_FILE</string>
 		 <string>VISB_SVG_BOX</string>
 		 <string>VISB_SVG_CONTENTS</string>
+		 <string>VISB_SVG_EVENTS</string>
+		 <string>VISB_SVG_EVENTS0</string>
+		 <string>VISB_SVG_EVENTS1</string>
+		 <string>VISB_SVG_EVENTS2</string>
+		 <string>VISB_SVG_EVENTS3</string>
+		 <string>VISB_SVG_EVENTS4</string>
 		 <string>VISB_SVG_FILE</string>
 		 <string>VISB_SVG_OBJECTS</string>
 		 <string>VISB_SVG_OBJECTS0</string>
