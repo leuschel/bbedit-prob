@@ -49,6 +49,8 @@
 		 <string>VARIANT</string>
 		 <string>WITNESS</string>
          <string>DEFINITIONS</string>
+         <string>EXPRESSIONS</string>
+         <string>PREDICATES</string>
          <string>ASSERTIONS</string>
          <string>ASSERT</string>
 		 <string>VARIABLES</string>
@@ -204,6 +206,7 @@
 		 <string>SET_PREF_DOUBLE_EVALUATION</string>
 		 <string>SET_PREF_EXPAND_BECOMES_SUCH</string>
 		 <string>SET_PREF_EXPAND_FORALL_UPTO</string>
+		 <string>SET_PREF_HYGIENIC_DEFINITIONS</string>
 		 <string>SET_PREF_IGNORE_PRJ_TYPES</string>
 		 <string>SET_PREF_INVARIANT_CHECKING</string>
 		 <string>SET_PREF_KODKOD</string>
