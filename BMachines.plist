@@ -230,6 +230,8 @@
 		 <string>SET_PREF_PROOF_INFO</string>
 		 <string>SET_PREF_RAISE_ABORT_IMMEDIATELY</string>
 		 <string>SET_PREF_RANDOMISE_ENUMERATION_ORDER</string>
+		 <string>SET_PREF_REAL_SOLVER</string>
+		 <string>SET_PREF_REAL_SOLVER_PRECISION</string>
 		 <string>SET_PREF_SMT</string>
 		 <string>SET_PREF_SMT_SUPPORTED_INTERPRETER</string>
 		 <string>SET_PREF_SOLVER_FOR_PROPERTIES</string>
@@ -384,6 +386,8 @@
 		 <string>RADIANS</string>
 		 <string>DEGREE</string>
 		 <string>RAND</string>
+		 <string>RAND_BOOL</string>
+		 <string>RAND_SAMPLES</string>
 		 <string>RCOS</string>
 		 <string>RCOT</string>
 		 <string>RATAN2</string>
@@ -426,6 +430,12 @@
 		 <string>READ_XML_FROM_STRING</string>
 		 <string>WRITE_XML</string>
 		 <string>WRITE_XML_TO_STRING</string>
+		 <string>GAME_OVER</string>
+		 <string>GAME_VALUE</string>
+		 <string>GAME_PLAYER</string>
+		 <string>GAME_MCTS_RUNS</string>
+		 <string>GAME_MCTS_TIMEOUT</string>
+		 <string>SIMB_JSON_FILE</string>
 		 <string>VISB_DEFINITIONS_FILE</string>
 		 <string>VISB_JSON_FILE</string>
 		 <string>VISB_SVG_BOX</string>
