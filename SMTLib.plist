@@ -29,7 +29,9 @@
 		<string>check-sat</string>
 		<string>declare-const</string>
 		<string>declare-datatypes</string>
+		<string>declare-datatype</string>
 		<string>declare-fun</string>
+		<string>define-fun</string>
 		<string>define-sort</string>
 		<string>exit</string>
 		<string>get-assertions</string>
@@ -44,12 +46,14 @@
 		<string>push</string>
 		<string>set-info</string>
 		<string>set-logic</string>
+		<string>set-option</string>
 	</array>
 	
 	 <key>BBLMPredefinedNameList</key>
 	 <array>
 		 <string>Bool</string>
 		 <string>Int</string>
+		 <string>Real</string>
 		 
 		 <string>true</string>
 		 <string>false</string>
